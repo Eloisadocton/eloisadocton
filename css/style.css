@@ -621,8 +621,8 @@ padding-top: 20%;
 animation: fadein 4s;
 }
 .indexinfo {
-  background-color:rgba(231, 53, 79, 0.1);
-  padding: 5%;
+  background-color:rgba(231, 53, 79, 0.05);
+  padding: 3%;
   font-size: .85em;
   position: fixed;
   width: 20%;
