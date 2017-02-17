@@ -367,7 +367,7 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: center;
-overflow: visible;
+overflow-y: scroll;
 }
 iframe {
 display: block;
@@ -622,8 +622,10 @@ animation: fadein 4s;
 }
 .indexinfo {
   background-color:rgba(231, 53, 79, 0.1);
-  padding: 8%;
+  padding: 5%;
   font-size: .85em;
+  position: fixed;
+  width: 20%;
 }
 .logominesm {
   display: none;
