@@ -10,6 +10,7 @@ body {
 }
 .wrapper {
   max-width: 1400px;
+  height: 100vh;
 }
 .navigation-wrapper {
 width: 100%;
@@ -500,9 +501,10 @@ position: fixed;
 right: 0;
 bottom: 0;
 left: 0;
-padding-bottom: 1%;
+/*padding-bottom: 1%;*/
 background-color: white;
-padding-top: 1%;
+overflow: hidden;
+/*padding-top: 1%;*/
 }
 footer a {
 font-size: 22px;
@@ -534,20 +536,27 @@ position: relative;
 height: 500px;
 overflow: scroll;
 }
+.landingpage-flex-container {
+  background-image: url("../images/heroimageindex.jpg");
+  /*background-size:contain;*/
+  /*background-repeat: no-repeat;
+  background-attachment: fixed;*/
+  background-repeat: no-repeat;
+  /*background-size: contain;*/
+  background-position: right;
+  height: 630px;
+  /*overflow: hidden;*/
+}
+
 .landing-page-one {
-background-image: url("../images/heroimageindex.jpg");
-/*background-size:contain;*/
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-position: right;
-height: 100vh;
+
 padding-left: 6.5%;
 margin-bottom: 0;
 }
 #object{
 width: 30%;
 height: 200px;
-float: left;
+/*float: left;*/
 }
 .pullDown{
 animation-name: pullDown;
@@ -611,9 +620,10 @@ transform: scaleY(1);
 }
 .approach {
 width: 30%;
+float: left;
 text-align: justify;
 line-height: 1.2;
-padding-top: 20%;
+margin-top: 5%;
 -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
 -moz-animation: fadein 4s; /* Firefox < 16 */
 -ms-animation: fadein 4s; /* Internet Explorer */
@@ -622,10 +632,10 @@ animation: fadein 4s;
 }
 .indexinfo {
   background-color:rgba(231, 53, 79, 0.05);
-  padding: 3%;
+  padding: 10%;
   font-size: .85em;
-  position: fixed;
-  width: 20%;
+  /*position: fixed;*/
+  width: 75%;
 }
 .logominesm {
   display: none;
