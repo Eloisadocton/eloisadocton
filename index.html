@@ -40,7 +40,7 @@
                               <a href="about.html"><span>About</span></a>
                           </li>
                           <li>
-                              <a href="#popup1"><span>Connect</span></a>
+                              <a href="#popup1" class="email"><span>Connect</span></a>
                                 <div id="popup1" class="overlay">
                                    <div class="popup">
                                        <a class="close" href="#">&times;</a>
@@ -107,9 +107,8 @@
               <h4>I am a UI/UX Designer and a former buyer at a high tech design company. I strongly believe in the power of empathy and proper research to deliver the best product available. For me, it has always been easy to look at the 'big picture' when planning or looking for solutions. With the experience I gathered in the design and service industries, I am able to deliver simple and clear answers to complex problems.
               </h4>
 
-              <h4>My Favorite Tools:
-                <br>
-              Illustrator | Photoshop | Sketch |
+              <h4>My favorite developing tools:
+               Sketch |
               </h4>
               <h4>Methodologies used:
                 <br>
@@ -124,7 +123,28 @@
       <!-- </div> -->
       </div>
 
+      <div class="flex-container-index-2">
+            <!-- <div class="right-menu-branchless"> -->
 
+              <div class="index-intro-2">
+                <h5>My Design Style</h5>
+                    <h4>I like to think that my design style is sophisticated, modern, with a hint of whimsy. I genuinely enjoy playing with colors, putting shapes together, and making things pretty. I have many years of experience creating digital design for the textile industry.
+                    </h4>
+
+                    <h4>My favorite design tools:
+                      <br>
+                    Illustrator | Photoshop | Sketch |
+                    </h4>
+                    <h4>Methodologies used:
+                      <br>
+                      Agile | SWOT | Color Theory | UX
+                    </h4>
+
+
+                </div>
+                <div class="index-image-2">
+                      <img src="./images/wallpaperindex.jpg" alt="wallpaper by eloisa"></a></div>
+            </div>
 </div>
 
 
@@ -310,7 +330,16 @@ function scaleBannerVideoSize(element){
 
     });
 }</script>
+<script>
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
 
+    if (scroll >= 200) {
+        $("nav").addClass("scrolling");
+    } else {
+        $("nav").removeClass("scrolling");
+    }
+});</script>
 
   </body>
 </html>
