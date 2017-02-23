@@ -16,17 +16,18 @@
 
   <body>
 
+    <nav>
         <div class="navigation-desktop">
             <div class="logoleftnav">
                           <a href="index.html" class="logomine"><h1 class="title1">Eloisa Docton</h1></a>
-                          <span class="illustrator"><h3 class="designer1">DESIGNER</h3><h3 class="spacer1">|</h3><h3 class="drawer1">ILLUSTRATOR</h3><h3 class="spacer21">|</h3><h3 class="developer1">DEVELOPER</h3></span>
+                          <span class="illustrator"><h3 class="designer">DESIGNER</h3><h3 class="spacer">|</h3><h3 class="drawer">ILLUSTRATOR</h3><h3 class="spacer2">|</h3><h3 class="developer">DEVELOPER</h3></span>
             </div>
                       <ul>
                             <li>
                                 <a href="about.html"><span>About</span></a>
                             </li>
                             <li>
-                                <a href="#popup1"><span>Connect</span></a>
+                                <a href="#popup1" class="email"><span>Connect</span></a>
                                   <div id="popup1" class="overlay">
                                      <div class="popup">
                                          <a class="close" href="#">&times;</a>
@@ -42,7 +43,7 @@
                             </li>
                        </ul>
         </div>
-
+  </nav>
             <div class="mobile-nav">
               <ul class="topnav">
                 <li class="right"><a href="index.html">Web Design</a></li>
@@ -145,5 +146,60 @@
         </div>
 </footer>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 200) {
+        $("nav").addClass("scrolling");
+    } else {
+        $("nav").removeClass("scrolling");
+    }
+});</script>
+
+<script>
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 200) {
+        $("h1").addClass("scrolling");
+    } else {
+        $("h1").removeClass("scrolling");
+    }
+});</script>
+
+<script>
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 200) {
+        $("li a").addClass("scrolling");
+    } else {
+        $("li a").removeClass("scrolling");
+    }
+});</script>
+
+<script>
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 200) {
+        $("h3").addClass("scrolling");
+    } else {
+        $("h3").removeClass("scrolling");
+    }
+});</script>
+<script>
+
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 200) {
+        $("h1:hover").addClass("scrolling");
+    } else {
+        $("h1:hover").removeClass("scrolling");
+    }
+});</script>
   </body>
 </html>

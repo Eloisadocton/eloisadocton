@@ -229,19 +229,23 @@ nav {
 nav.scrolling {
     background-color: #339999;
 }
-a {
+/*a {
   text-decoration: none;
   font-size: 1vw;
-}
+}*/
 .left-menu-site-active a {
-color: #e7354f;
+color: #339999;
 letter-spacing: .45em;
-font-weight: bold;
+font-weight: 400;
+text-decoration: none;
 }
 .work-menu-active a {
-  color: #e7354f;
+  color: #339999;
 }
-
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .link {
 color: #e7354f;
 }
@@ -326,26 +330,24 @@ li a:hover.scrolling {
 
 .left-menu-site {
   float: left;
-  margin-left: 3%;
-  margin-top: 4%;
-  width: 30%;
-  height: 200px;
-  position:absolute;
-  top:5%;
-}
-.left-menu-site a {
-  text-decoration: none;
-  padding:  1em 1.2em;
-  text-decoration: none;
-  font-size: .75vw;
-  text-transform: uppercase;
-  letter-spacing: .45em;
+  font-size: .95vw;
   font-weight: 200;
   font-style: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: .45em;
   line-height: 4;
+  height: 200px;
+  width: 16%;
+  margin-left: 3%;
+  margin-top: 3%;
+  position:absolute;
+  top:5%;
+  padding:  1em 1.2em;
 }
+
 .left-menu-site a:hover {
-  color: #3f8037 !important;
+  color: #a1ded6 !important;
   transition: .7s;
 }
 .resume {
@@ -360,7 +362,7 @@ li a:hover.scrolling {
 }
 .info-container {
   margin-left: 7%;
-  margin-top: 3%;
+  margin-top: 8%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -406,6 +408,11 @@ overflow: scroll;
 }
 .right-menu {
   height: 100%;
+  padding-top: 7%;
+}
+.right-menu-web {
+  height: 100%;
+  padding-top: 1%;
 }
 .thumb-image {
 margin: .2%;
@@ -702,6 +709,7 @@ margin-top: 4%;*/
 }
 .signature {
   float: right;
+  margin-right: 0;
 }
 .info {
 width: 82%;
@@ -711,9 +719,10 @@ text-align: justify;
 }
 .fa {
 text-decoration: none;
-color: black;
-font-size: 22px;
+color: #339999;
+font-size: 17px;
 margin-top: 2%;
+margin-left: 4%;
 }
 .fa:hover {
 color: #6bb7bf;
@@ -744,13 +753,13 @@ footer a {
   display: inline;
   width: 35%;
 }
-  .right-footer {
+.right-footer {
   float: right;
-  margin-right: -5%;
+  margin-right: -3%;
   width: 20%;
 }
 .socialmedia {
-width: 25px;
+  width: 25px;
 }
 .flex-container {
   margin-top: 1%;
