@@ -1045,7 +1045,7 @@ background-color: black;
     width: 50%;
   }
 }
-@media screen and (min-device-width: 375px)
+@media screen and (min-device-width: 300px)
   and (max-device-width: 1023px)
 {
   .mobile-nav {
