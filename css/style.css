@@ -1,4 +1,97 @@
-
+.work-button a {
+  font-size: 1vw;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: .20em;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0;
+  padding-top: 0;
+  display: table-cell;
+  width: 30%;
+  vertical-align: middle;
+  line-height: 1em;
+  position: relative;
+  color: #339999;
+  text-align: center;
+}
+.work-button a:hover {
+  font-size: 1vw;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: .20em;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0;
+  padding-top: 0;
+  display: table-cell;
+  width: 30%;
+  vertical-align: middle;
+  line-height: 1em;
+  position: relative;
+  color: #a1ded6;
+  text-align: center;
+}
+.work-button {
+  float: right;
+  background-color: #a1ded6;
+  width: 30%;
+  padding: 3%;
+}
+.work-button:hover {
+  float: right;
+  background-color: #339999;
+  width: 30%;
+  padding: 3%;
+  transition: .7s;
+}
+.illustration-button a {
+  font-size: 1vw;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: .20em;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0;
+  padding-top: 0;
+  display: table-cell;
+  width: 30%;
+  vertical-align: middle;
+  line-height: 1em;
+  position: relative;
+  color: #339999;
+  text-align: center;
+}
+.illustration-button a:hover {
+  font-size: 1vw;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: .20em;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0;
+  padding-top: 0;
+  display: table-cell;
+  width: 30%;
+  vertical-align: middle;
+  line-height: 1em;
+  position: relative;
+  color: #a1ded6;
+  text-align: center;
+}
+.illustration-button {
+  float: left;
+  background-color: #a1ded6;
+  width: 32%;
+  padding: 3%;
+}
+.illustration-button:hover {
+  float: left;
+  background-color: #339999;
+  width: 32%;
+  padding: 3%;
+  transition: .7s;
+}
 .homepage-hero-module {
     border-right: none;
     border-left: none;
@@ -42,8 +135,17 @@
 .video-container video.fillWidth {
     width: 100%;
 }
+.copyright  {
+  color: black;
+  font-size: .65vw;
+  letter-spacing: .2vw;
+  margin-left: 4%;
+  margin-top: 1%;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 h1 {
-  font-size: .75vw;
+  font-size: 1.2vw;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: .35em;
@@ -60,8 +162,14 @@ h1 {
   color: black;
 }
 h1:hover {
-  color: #3f8037;
+  color: #339999;
   transition: 1s;
+}
+h1.scrolling {
+    color: white;
+}
+h1:hover.scrolling {
+    color: #a1ded6;
 }
 h3 {
   color: black;
@@ -73,16 +181,30 @@ h3 {
   text-transform: uppercase;
   font-weight: 200;
 }
+h3.scrolling {
+      color: white;
+  }
 h4 {
   font-size: .85em;
   line-height: 1.5;
   font-weight: 200;
 }
 h5 {
-  font-size: 1em;
+  font-size: 1vw;
+  text-transform: uppercase;
+  text-decoration: none;
   letter-spacing: .35em;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0;
+  padding-top: 0;
+  display: table-cell;
+  width: 30%;
+  vertical-align: middle;
+  line-height: 1em;
+  position: relative;
   text-align: left;
-  color: #e7354f;
+  color: #339999;
 }
 h6 {
   color: white;
@@ -98,13 +220,14 @@ nav {
   margin: 0;
   min-height: 50px;
   padding: 10px;
+  padding-bottom: 0;
   background-color: white;
   z-index: 9000000000000;
   width: 100%;
   transition: .7s;
 }
 nav.scrolling {
-    background-color: #e7354f;
+    background-color: #339999;
 }
 a {
   text-decoration: none;
@@ -147,7 +270,6 @@ ul{
     width: 100%;
     vertical-align: middle;
 }
-
 li {
 float: right;
 }
@@ -163,9 +285,15 @@ letter-spacing: .3em;
 font-weight: 200;
 font-style: normal;
 }
-li a:hover:not(.active) {
+li a:hover {
 color: #6bb7bf;
 transition: .7s;
+}
+li a.scrolling {
+    color: white;
+}
+li a:hover.scrolling {
+    color: #a1ded6;
 }
 .active a{
   color: #6bb7bf;
@@ -182,17 +310,20 @@ transition: .7s;
   color: white;
   padding:  1em 1.2em;
   text-decoration: none;
-  font-size: .85vw;
+  font-size: .95vw;
   text-transform: uppercase;
   letter-spacing: .45em;
   font-weight: 200;
   font-style: normal;
   line-height: 4;
+  font-weight: normal;
+
 }
 .left-menu-index a:hover {
-  color: #3f8037 !important;
+  color: #a1ded6 !important;
   transition: .7s;
 }
+
 .left-menu-site {
   float: left;
   margin-left: 3%;
@@ -420,9 +551,6 @@ flex-wrap: wrap;
 justify-content: center;
 overflow-y: scroll;
 }
-.flex-container-about {
-
-}
 iframe {
 display: block;
 line-height: 0;
@@ -455,13 +583,20 @@ margin: 1%;
   text-align: justify;
   width: 50%;
   margin-right: 3%;
-  margin-top: 5%;
+  margin-top: 8%;
 }
 .index-intro-2 {
   text-align: justify;
   width: 50%;
   margin-right: 3%;
   margin-top: 5%;
+}
+.index-intro-3 {
+  text-align: justify;
+  width: 50%;
+  margin-right: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .UI404-image img {
 clear: both;
@@ -650,7 +785,7 @@ width: 25px;
   position:absolute;
   width:100%;
   max-height: 100%;
-  background-color:rgba(255, 255, 255, 0.3);
+  background-color:rgba(255, 255, 255, 0.2);
   }
 }
 .video-annotation-layer{
@@ -673,9 +808,6 @@ width: 25px;
   -ms-animation: fadein 6s; /* Internet Explorer */
   -o-animation: fadein 6s; /* Opera < 12.1 */
   animation: fadein 6s;
-
-  /*background-color:rgba(255, 255, 255, 0.4);*/
-
 }
 
 #object{
@@ -696,7 +828,13 @@ z-index: 80000000;
   margin: 4% 0;
 }
 .index-image-2 img {
-  width: 80%;
+  width: 100%;
+}
+.index-image-3 {
+  margin: 4% 0;
+}
+.index-image-3 img {
+  width: 95%;
 }
 .pullDown{
 animation-name: pullDown;
@@ -766,7 +904,7 @@ transform: scaleY(1);
   display: none;
 }
 .flex-container-index{
-  padding: 5%;
+  padding: 1% 5%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -777,8 +915,7 @@ transform: scaleY(1);
   z-index: 90000000;
 }
 .flex-container-index-2{
-  padding: 5%;
-
+  padding: 2% 8%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -827,7 +964,7 @@ background-color: black;
     padding-bottom: 0;
   }
   h1 {
-    font-size: 1vw;
+    font-size: 1.2vw;
   }
   ul {
     width: 40%;
@@ -903,6 +1040,9 @@ background-color: black;
   and (max-device-width: 1023px)
 {
   .mobile-nav {
+    display: none;
+  }
+  .video-container .filter {
     display: none;
   }
   h1 {

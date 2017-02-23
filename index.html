@@ -103,12 +103,11 @@
               <img src="./images/goodreads.jpg" alt="chair bannersd"></a></div>
 
         <div class="index-intro">
-          <h5>My approach</h5>
+          <h5>My work</h5>
               <h4>I am a UI/UX Designer and a former buyer at a high tech design company. I strongly believe in the power of empathy and proper research to deliver the best product available. For me, it has always been easy to look at the 'big picture' when planning or looking for solutions. With the experience I gathered in the design and service industries, I am able to deliver simple and clear answers to complex problems.
-              </h4>
-
-              <h4>My favorite developing tools:
-               Sketch |
+                <br>
+                <br>
+                The success I experienced during my last job as a buyer was directly related to my strong communication skills and my analytical style. My research during that period involved raw materials, the locations they were coming from, the logistics and costs to get such materials. To steer production, I analyzed existing historical manufacture and sales data and took in consideration present and possible future events. I personally believe that research and analytics is what allows for the success of a good design, no matter what it is.
               </h4>
               <h4>Methodologies used:
                 <br>
@@ -118,17 +117,24 @@
                 <br>
                 HTML | CSS | SASS | JQuery | Javascript |
               </h4>
-
+                <div class="work-button">
+                  <a href="webdesign.html">my web designs</a>
+                </div>
           </div>
-      <!-- </div> -->
-      </div>
+              </div>
 
       <div class="flex-container-index-2">
             <!-- <div class="right-menu-branchless"> -->
 
               <div class="index-intro-2">
-                <h5>My Design Style</h5>
+                <h5>My Illustrations</h5>
                     <h4>I like to think that my design style is sophisticated, modern, with a hint of whimsy. I genuinely enjoy playing with colors, putting shapes together, and making things pretty. I have many years of experience creating digital design for the textile industry.
+                      <br>
+                      <br>
+                      Through my research on trends and color schemes, I come up with illustrations that are pleasant to the eye and relevant to the project I'm working on.
+                      <br>
+                      <br>
+                      My previous design experience include textile and surface design, logos and posters.
                     </h4>
 
                     <h4>My favorite design tools:
@@ -137,20 +143,50 @@
                     </h4>
                     <h4>Methodologies used:
                       <br>
-                      Agile | SWOT | Color Theory | UX
+                      Agile | SWOT | Color Theory | UX |
                     </h4>
-
+                    <br>
+                    <br>
+                    <div class="illustration-button">
+                      <a href="illustrations.html">my illustrations</a>
+                    </div>
 
                 </div>
                 <div class="index-image-2">
                       <img src="./images/wallpaperindex.jpg" alt="wallpaper by eloisa"></a></div>
             </div>
-</div>
+
+            <div class="flex-container-index">
+                  <!-- <div class="right-menu-branchless"> -->
+                    <div class="index-image-3">
+                          <img src="./images/dollindex.jpg" alt="dolls made"></a></div>
+
+                    <div class="index-intro-3">
+                      <h5>Project Design</h5>
+                          <h4>Products are very curious, they typically come from the spark of an idea. After heavy user research, these products can transform into something else.
+                          <br>
+                          <br>
+                          Fine-tuning the original idea, considering the user findings, allow for the design of a great and successful product.
+                          <br>
+                          <br>
+                          In the past, I've been involved with product development projects, from determining an original need, to coming up with an idea, to developing that idea into a product or a service, moving onto user interviews, fine-tuning the elements, and coming up with a great plan.
+                                                    </h4>
+                          <h4>Methodologies used:
+                            <br>
+                            Agile | SWOT | UX |
+                          </h4>
+
+                            <div class="work-button">
+                              <a href="projects.html">project designs</a>
+                            </div>
+                      </div>
+                          </div>
+
 
 
     <footer>
           <div class="left-footer">
-                  <h3>Copyright 2017 by Eloisa Docton, all rights reserved.</h3>
+                  <a class="copyright">Copyright 2017 by Eloisa Docton, all rights reserved.</a>
           </div>
 
           <div class="right-footer">
@@ -341,5 +377,48 @@ $(window).scroll(function() {
     }
 });</script>
 
+<script>
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 200) {
+        $("h1").addClass("scrolling");
+    } else {
+        $("h1").removeClass("scrolling");
+    }
+});</script>
+
+<script>
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 200) {
+        $("li a").addClass("scrolling");
+    } else {
+        $("li a").removeClass("scrolling");
+    }
+});</script>
+
+<script>
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 200) {
+        $("h3").addClass("scrolling");
+    } else {
+        $("h3").removeClass("scrolling");
+    }
+});</script>
+<script>
+
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 200) {
+        $("h1:hover").addClass("scrolling");
+    } else {
+        $("h1:hover").removeClass("scrolling");
+    }
+});</script>
   </body>
 </html>
