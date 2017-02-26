@@ -1161,7 +1161,6 @@ width: 100%;
     padding-right: 3%;
     padding-top: 3%;
     padding-bottom: 3%;
-    font-size: 30px;
     background-color: #d6f2f2;
   }
   .left-menu-site-mobile a {
@@ -1179,7 +1178,7 @@ width: 100%;
   .video-annotation-layer-mobile {
     display: flex;
     margin-top: 21%;
-    width: 110%;
+    width: 100%;
   }
   .video-annotation-layer {
     display: none;
