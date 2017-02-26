@@ -1,57 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <link rel="icon" href="http://www.eloisadocton/favicon.png" type="image/x-icon" />
-<link rel="shortcut icon" href="http://www.eloisadocton.com/favicon.png" type="image/x-icon" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Eloisa Docton</title>
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="script.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-<script src="https://use.fontawesome.com/05cc2df339.js"></script>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>Eloisa Docton</title>
+  <link rel="stylesheet" href="css/animations.css">
+  <script src="script.js"></script>
+    <script src="https://use.fontawesome.com/05cc2df339.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="https://animate.min.css">
+  <link rel="stylesheet" href="https://css/animations.css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#e7354f">
+  <meta name="theme-color" content="#ffffff">
+
+
+</head>
 
   <body>
-
     <nav>
-        <div class="navigation-desktop">
-            <div class="logoleftnav">
-                          <a href="index.html" class="logomine"><h1 class="title1">Eloisa Docton</h1></a>
-                          <span class="illustrator"><h3 class="designer">DESIGNER</h3><h3 class="spacer">|</h3><h3 class="drawer">ILLUSTRATOR</h3><h3 class="spacer2">|</h3><h3 class="developer">DEVELOPER</h3></span>
-            </div>
-                      <ul>
-                            <li>
-                                <a href="about.html"><span>About</span></a>
-                            </li>
-                            <li>
-                                <a href="#popup1" class="email"><span>Connect</span></a>
-                                  <div id="popup1" class="overlay">
-                                     <div class="popup">
-                                         <a class="close" href="#">&times;</a>
-                                           <div class="content">
-                                              <div class="direct-email"><p>Get in touch with me by emailing: <a href="mailto:webmaster@example.com">eloisa.docton@gmail.com</a></p>
-                                              </div>
-                                          </div>
-                                     </div>
-                                  </div>
-                            </li>
-                            <li>
-                                <a href="resume.html"><span>Resume</span></a>
-                            </li>
-                       </ul>
+      <div class="navigation-desktop">
+        <div class="logoleftnav">
+            <a href="index.html" class="logomine"><h1 class="title1">Eloisa Docton</h1></a>
+                <span class="illustrator"><h3 class="designer1">DESIGNER</h3><h3 class="spacer1">|</h3><h3 class="drawer1">ILLUSTRATOR</h3><h3 class="spacer21">|</h3><h3 class="developer1">DEVELOPER</h3></span>
         </div>
-  </nav>
-            <div class="mobile-nav">
-              <ul class="topnav">
-                <li class="right"><a href="index.html">Web Design</a></li>
-                <li class="right"><a href="illustrations.html">Illustration</a></li>
-                <li class="right"><a href="projects.html">Projects</a></li>
-              </ul>
-            </div>
-
+            <ul>
+                <li><a href="about.html"><span>About</span></a></li>
+                <li>
+                    <a href="#popup1"><span>Connect</span></a>
+                      <div id="popup1" class="overlay">
+                         <div class="popup">
+                             <a class="close" href="#">&times;</a>
+                               <div class="content">
+                                  <div class="direct-email"><p>Get in touch with me by emailing: <a href="mailto:webmaster@example.com">eloisa.docton@gmail.com</a></p>
+                                  </div>
+                              </div>
+                         </div>
+                      </div>
+                </li>
+                <li><a href="resume.html"><span>Resume</span></a></li>
+             </ul>
+      </div>
+    </nav>
 
 <div class="right-menu">
   <div class="video-annotation-layer">
@@ -64,6 +64,8 @@
     </div>
 
     <div class="flex-container">
+      <!-- Trigger the Modal -->
+
       <div class="thumb-image"><img src="./images/thumb-text-cacti.jpg"></a></div>
       <div class="thumb-image"><img src="./images/thumb-text-casa.jpg"></a></div>
       <div class="thumb-image"><img src="./images/thumb-text-claire.jpg"></a></div>
@@ -132,7 +134,7 @@
 
 <footer>
       <div class="left-footer">
-              <h3>Copyright 2017 by Eloisa Docton, all rights reserved.</h3>
+              <a class="copyright">Site coded by: Eloisa Docton, Copyright 2017, all rights reserved.</a>
       </div>
 
       <div class="right-footer">
@@ -201,5 +203,6 @@ $(window).scroll(function() {
         $("h1:hover").removeClass("scrolling");
     }
 });</script>
+
   </body>
 </html>
