@@ -933,11 +933,11 @@ transform: scaleY(1);
   z-index: 90000000;
 }
 .box-one {
-margin: 2% 1%;
-width: 28%;
-height: 400px;
--webkit-transition: .3s ease-in-out;
-transition: .3s ease-in-out;
+  margin: 2% 1%;
+  width: 28%;
+  height: 400px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 .box-one img {
   width: 100%;
@@ -946,8 +946,11 @@ transition: .3s ease-in-out;
   transition: .3s ease-in-out;
 }
 .box-one:hover img {
-opacity: .3;
-background-color: black;
+  opacity: .3;
+  background-color: black;
+}
+.videobox {
+  margin-top: 250px;
 }
 
 /*Hide Navbar on everything but cellphones*/
