@@ -60,7 +60,7 @@
   vertical-align: middle;
   line-height: 1em;
   position: relative;
-  color: #e7354f;
+  color: #74ccd1;
   text-align: center;
   transition: .5s;
 }
@@ -96,7 +96,7 @@
   vertical-align: middle;
   line-height: 1em;
   position: relative;
-  color: #e7354f;
+  color: #74ccd1;
   text-align: center;
   transition: .5s;
 }
@@ -171,7 +171,7 @@
 }
 .illustration-button:hover {
   float: left;
-  background-color: #e7354f;
+  background-color: #74ccd1;
   width: 32%;
   padding: 3%;
   transition: .7s;
@@ -241,7 +241,7 @@ h1 {
 }
 
 h1:hover {
-  color: #e7354f;
+  color: #74ccd1;
   transition: 1s;
 }
 h1.scrolling {
@@ -285,7 +285,7 @@ h5 {
   line-height: 1em;
   position: relative;
   text-align: left;
-  color: #e7354f;
+  color: #74ccd1;
 }
 h5.scrolling {
   font-family: 'LemonMilk', Fallback, sans-serif;
@@ -320,23 +320,23 @@ nav.scrolling {
   font-size: 1vw;
 }*/
 .left-menu-site-active a {
-color: #e7354f;
+color: #74ccd1;
 letter-spacing: .45em;
 font-weight: 400;
 text-decoration: none;
 }
 .work-menu-active a {
-  color: #e7354f;
+  color: #74ccd1;
 }
 a {
   text-decoration: none;
   color: inherit;
 }
 .link {
-color: #e7354f;
+color: #74ccd1;
 }
 .coral {
-color: #e7354f;
+color: #74ccd1;
 letter-spacing: .45em;
 font-weight: bold;
 }
@@ -377,14 +377,14 @@ font-style: normal;
 }
 li a:hover {
 font-family: 'LemonMilk', Fallback, sans-serif;
-color: #e7354f;
+color: #74ccd1;
 transition: .7s;
 }
 li a.scrolling {
     color: white;
 }
 li a:hover.scrolling {
-    color: #e7354f;
+    color: #74ccd1;
 }
 .active a{
   color: #6bb7bf;
@@ -411,7 +411,7 @@ li a:hover.scrolling {
 
 }
 .left-menu-index a:hover {
-  color: #e7354f !important;
+  color: #74ccd1 !important;
   transition: .7s;
 }
 
@@ -434,7 +434,7 @@ li a:hover.scrolling {
 }
 
 .left-menu-site a:hover {
-  color: #e7354f !important;
+  color: #74ccd1 !important;
   transition: .7s;
 }
 .resume {
@@ -802,7 +802,7 @@ text-align: justify;
 }
 .fa {
 text-decoration: none;
-color: #e7354f;
+color: #74ccd1;
 font-size: 17px;
 margin-top: 2%;
 margin-left: 4%;
@@ -1224,7 +1224,7 @@ width: 100%;
   }
   li a {
     font-size: 35px;
-    color: #e7354f;
+    color: #74ccd1;
     width: 100%;
     font-weight: 600;
     padding-top: 1em;
