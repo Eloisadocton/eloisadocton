@@ -5,9 +5,100 @@
   <title>Eloisa Docton</title>
   <link rel="stylesheet" href="css/animations.css">
   <script src="script.js"></script>
-    <script src="https://use.fontawesome.com/05cc2df339.js"></script>
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="https://use.fontawesome.com/05cc2df339.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 
+  <script type="text/javascript">
+    (function($) {
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 500) {
+                    $('#containerA').fadeIn(500);
+                } else {
+                    $('#containerA').fadeOut(500);
+                }
+            });
+        });
+    })(jQuery);
+  </script>
+  <script type="text/javascript">
+    (function($) {
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 500) {
+                    $('#containerB').fadeIn(500);
+                } else {
+                    $('#containerB').fadeOut(500);
+                }
+            });
+        });
+    })(jQuery);
+  </script>
+  <script type="text/javascript">
+    (function($) {
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 1000) {
+                    $('#containerC').fadeIn(500);
+                } else {
+                    $('#containerC').fadeOut(500);
+                }
+            });
+        });
+    })(jQuery);
+  </script>
+  <script type="text/javascript">
+    (function($) {
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 1000) {
+                    $('#containerD').fadeIn(500);
+                } else {
+                    $('#containerD').fadeOut(500);
+                }
+            });
+        });
+    })(jQuery);
+  </script>
+  <script type="text/javascript">
+    (function($) {
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 1500) {
+                    $('#containerE').fadeIn(500);
+                } else {
+                    $('#containerE').fadeOut(500);
+                }
+            });
+        });
+    })(jQuery);
+  </script>
+  <script type="text/javascript">
+    (function($) {
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 1500) {
+                    $('#containerF').fadeIn(500);
+                } else {
+                    $('#containerF').fadeOut(500);
+                }
+            });
+        });
+    })(jQuery);
+  </script>
+  <script type="text/javascript">
+    (function($) {
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 2500) {
+                    $('#containerG').fadeIn(500);
+                } else {
+                    $('#containerG').fadeOut(500);
+                }
+            });
+        });
+    })(jQuery);
+  </script>
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
   <link rel="stylesheet" href="css/style.css">
@@ -23,7 +114,6 @@
   <link rel="manifest" href="/manifest.json">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#e7354f">
   <meta name="theme-color" content="#ffffff">
-
 
 </head>
 
@@ -75,15 +165,11 @@
       </div>
   </div>
 
-<div class="flex-container-projects">
-    <!-- <div class="right-menu-branchless"> -->
-      <div class="UI404-image">
-        <div class="videobox">
+    <div class="videobox">
         <iframe src="https://player.vimeo.com/video/215508534" width="540" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      </div>
-      </div>
+    </div>
 
-    <div class="UI404-intro">
+      <div class="video-intro">
       <h5>Video: Mother's Day Caribbean Sale Promo</h5>
           <h4>I decided to work some animations, watercolors and contrast to create a fun Mother's Day promo.
           </h4>
@@ -99,7 +185,7 @@
 
             <br>
             <br>
-            <a class="coral">< < Watch Video!</a>
+
 
           </div>
 
@@ -107,240 +193,221 @@
   </div>
 </div>
 <footer>
-      <div class="left-footer">
-              <a class="copyright">Site coded by: Eloisa Docton, Copyright 2017, all rights reserved.</a>
-      </div>
 
-      <div class="right-footer">
-              <a href="https://www.linkedin.com/in/eloisadocton" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-              <a href="https://dribbble.com/eloisadocton" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-              <a href="https://twitter.com/natitys" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="https://www.facebook.com/EloisaDPage/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="https://eloisa.blog/blog/" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i></a>
-              <a href="https://www.instagram.com/natitys/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-              <a href="https://github.com/Eloisadocton" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-        </div>
-</footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script type="text/javascript">
-//jQuery is required to run this code
-jQuery( document ).ready(function() {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
 
-scaleVideoContainer();
+  <script type="text/javascript">
+          jQuery( document ).ready(function() {
 
-initBannerVideoSize('.video-container .poster img');
-initBannerVideoSize('.video-container .filter');
-initBannerVideoSize('.video-container video');
+          scaleVideoContainer();
 
-jQuery(window).on('resize', function() {
-    scaleVideoContainer();
-    scaleBannerVideoSize('.video-container .poster img');
-    scaleBannerVideoSize('.video-container .filter');
-    scaleBannerVideoSize('.video-container video');
-});
+          initBannerVideoSize('.video-container .poster img');
+          initBannerVideoSize('.video-container .filter');
+          initBannerVideoSize('.video-container video');
 
-});
+          jQuery(window).on('resize', function() {
+              scaleVideoContainer();
+              scaleBannerVideoSize('.video-container .poster img');
+              scaleBannerVideoSize('.video-container .filter');
+              scaleBannerVideoSize('.video-container video');
+          });
 
-function scaleVideoContainer() {
+          });
 
-var height = jQuery(window).height() + 5;
-var unitHeight = parseInt(height) + 'px';
-jQuery('.homepage-hero-module').css('height',unitHeight);
+          function scaleVideoContainer() {
 
-}
+          var height = jQuery(window).height() + 5;
+          var unitHeight = parseInt(height) + 'px';
+          jQuery('.homepage-hero-module').css('height',unitHeight);
 
-function initBannerVideoSize(element){
+          }
 
-jQuery(element).each(function(){
-    jQuery(this).data('height', jQuery(this).height());
-    jQuery(this).data('width', jQuery(this).width());
-});
+          function initBannerVideoSize(element){
 
-scaleBannerVideoSize(element);
+          jQuery(element).each(function(){
+              jQuery(this).data('height', jQuery(this).height());
+              jQuery(this).data('width', jQuery(this).width());
+          });
 
-}
+          scaleBannerVideoSize(element);
 
-function scaleBannerVideoSize(element){
+          }
 
-var windowWidth = jQuery(window).width(),
-windowHeight = jQuery(window).height() + 5,
-videoWidth,
-videoHeight;
+          function scaleBannerVideoSize(element){
 
-console.log(windowHeight);
+          var windowWidth = jQuery(window).width(),
+          windowHeight = jQuery(window).height() + 5,
+          videoWidth,
+          videoHeight;
 
-jQuery(element).each(function(){
-    var videoAspectRatio = jQuery(this).data('height')/jQuery(this).data('width');
+          console.log(windowHeight);
 
-    jQuery(this).width(windowWidth);
+          jQuery(element).each(function(){
+              var videoAspectRatio = jQuery(this).data('height')/jQuery(this).data('width');
 
-    if(windowWidth < 1000){
-        videoHeight = windowHeight;
-        videoWidth = videoHeight / videoAspectRatio;
-        jQuery(this).css({'margin-top' : 0, 'margin-left' : -(videoWidth - windowWidth) / 2 + 'px'});
+              jQuery(this).width(windowWidth);
 
-        jQuery(this).width(videoWidth).height(videoHeight);
-    }
+              if(windowWidth < 1000){
+                  videoHeight = windowHeight;
+                  videoWidth = videoHeight / videoAspectRatio;
+                  jQuery(this).css({'margin-top' : 0, 'margin-left' : -(videoWidth - windowWidth) / 2 + 'px'});
 
-    jQuery('.homepage-hero-module .video-container video').addClass('fadeIn animated');
+                  jQuery(this).width(videoWidth).height(videoHeight);
+              }
 
-});
-}
-</script>
+              jQuery('.homepage-hero-module .video-container video').addClass('fadeIn animated');
 
-            <script>
-              $(window).scroll(function() {
-                $('#object').each(function(){
-                var imagePos = $(this).offset().top;
+          });
+          }
+  </script>
 
-                var topOfWindow = $(window).scrollTop();
-                  if (imagePos < topOfWindow+400) {
-                    $(this).addClass("pullDown");
-                  }
-                });
-              });
-            </script>
+  <script>
+          $(window).scroll(function() {
+            $('#object').each(function(){
+            var imagePos = $(this).offset().top;
 
-            <script>
-              $('#object').click(function() {
+            var topOfWindow = $(window).scrollTop();
+              if (imagePos < topOfWindow+400) {
                 $(this).addClass("pullDown");
-              });
-            </script>
+              }
+            });
+          });
+  </script>
 
-<!-- Dribbble API -->
-<script type='text/javascript'>
-$(function() {
-$.getJSON('https://api.dribbble.com/v1/users/USERNAME/shots?access_token=TOKEN&callback=?', function(resp) {
-if (resp.data.length > 0) {
-  $.each(resp.data.reverse(), function(i, val) {
-    $('#dribbble').prepend(
-      '<li class="box"><img src="'+val.images.normal+'" /><h2>'+val.title+'</h2><p><a href="'+val.html_url+'">original post &rarr;</a></p></li>'
-    );
-  });
-}
-else {
-  $('#dribbble').append('<li>No shots.</li>');
-}
-});
-});
-</script>
-<script>
-//jQuery is required to run this code
-$( document ).ready(function() {
+  <script>
+        $('#object').click(function() {
+          $(this).addClass("pullDown");
+        });
+  </script>
 
-scaleVideoContainer();
 
-initBannerVideoSize('.video-container .poster img');
-initBannerVideoSize('.video-container .filter');
-initBannerVideoSize('.video-container video');
+  <script>
+            $( document ).ready(function() {
 
-$(window).on('resize', function() {
-    scaleVideoContainer();
-    scaleBannerVideoSize('.video-container .poster img');
-    scaleBannerVideoSize('.video-container .filter');
-    scaleBannerVideoSize('.video-container video');
-});
+            scaleVideoContainer();
 
-});
+            initBannerVideoSize('.video-container .poster img');
+            initBannerVideoSize('.video-container .filter');
+            initBannerVideoSize('.video-container video');
 
-function scaleVideoContainer() {
+            $(window).on('resize', function() {
+                scaleVideoContainer();
+                scaleBannerVideoSize('.video-container .poster img');
+                scaleBannerVideoSize('.video-container .filter');
+                scaleBannerVideoSize('.video-container video');
+            });
 
-var height = $(window).height() + 5;
-var unitHeight = parseInt(height) + 'px';
-$('.homepage-hero-module').css('height',unitHeight);
+            });
 
-}
+            function scaleVideoContainer() {
 
-function initBannerVideoSize(element){
+            var height = $(window).height() + 5;
+            var unitHeight = parseInt(height) + 'px';
+            $('.homepage-hero-module').css('height',unitHeight);
 
-$(element).each(function(){
-    $(this).data('height', $(this).height());
-    $(this).data('width', $(this).width());
-});
+            }
 
-scaleBannerVideoSize(element);
+            function initBannerVideoSize(element){
 
-}
+            $(element).each(function(){
+                $(this).data('height', $(this).height());
+                $(this).data('width', $(this).width());
+            });
 
-function scaleBannerVideoSize(element){
+            scaleBannerVideoSize(element);
 
-var windowWidth = $(window).width(),
-windowHeight = $(window).height() + 5,
-videoWidth,
-videoHeight;
+            }
 
-// console.log(windowHeight);
+            function scaleBannerVideoSize(element){
 
-$(element).each(function(){
-    var videoAspectRatio = $(this).data('height')/$(this).data('width');
+            var windowWidth = $(window).width(),
+            windowHeight = $(window).height() + 5,
+            videoWidth,
+            videoHeight;
 
-    $(this).width(windowWidth);
+            // console.log(windowHeight);
 
-    if(windowWidth < 1000){
-        videoHeight = windowHeight;
-        videoWidth = videoHeight / videoAspectRatio;
-        $(this).css({'margin-top' : 0, 'margin-left' : -(videoWidth - windowWidth) / 2 + 'px'});
+            $(element).each(function(){
+                var videoAspectRatio = $(this).data('height')/$(this).data('width');
 
-        $(this).width(videoWidth).height(videoHeight);
-    }
+                $(this).width(windowWidth);
 
-    $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
+                if(windowWidth < 1000){
+                    videoHeight = windowHeight;
+                    videoWidth = videoHeight / videoAspectRatio;
+                    $(this).css({'margin-top' : 0, 'margin-left' : -(videoWidth - windowWidth) / 2 + 'px'});
 
-});
-}</script>
-<script>
-$(window).scroll(function() {
-var scroll = $(window).scrollTop();
+                    $(this).width(videoWidth).height(videoHeight);
+                }
 
-if (scroll >= 200) {
-    $("nav").addClass("scrolling");
-} else {
-    $("nav").removeClass("scrolling");
-}
-});</script>
+                $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
 
-<script>
-$(window).scroll(function() {
-var scroll = $(window).scrollTop();
+            });
+            }
+  </script>
 
-if (scroll >= 200) {
-    $("h1").addClass("scrolling");
-} else {
-    $("h1").removeClass("scrolling");
-}
-});</script>
 
-<script>
-$(window).scroll(function() {
-var scroll = $(window).scrollTop();
+  <script>
+          $(window).scroll(function() {
+          var scroll = $(window).scrollTop();
 
-if (scroll >= 200) {
-    $("li a").addClass("scrolling");
-} else {
-    $("li a").removeClass("scrolling");
-}
-});</script>
+          if (scroll >= 100) {
+              $("nav").addClass("scrolling");
+          } else {
+              $("nav").removeClass("scrolling");
+          }
+          });
+  </script>
 
-<script>
-$(window).scroll(function() {
-var scroll = $(window).scrollTop();
+  <script>
+          $(window).scroll(function() {
+          var scroll = $(window).scrollTop();
 
-if (scroll >= 200) {
-    $("h3").addClass("scrolling");
-} else {
-    $("h3").removeClass("scrolling");
-}
-});</script>
-<script>
+          if (scroll >= 100) {
+              $("h1").addClass("scrolling");
+          } else {
+              $("h1").removeClass("scrolling");
+          }
+          });</script>
 
-$(window).scroll(function() {
-var scroll = $(window).scrollTop();
+          <script>
+          $(window).scroll(function() {
+          var scroll = $(window).scrollTop();
 
-if (scroll >= 200) {
-    $("h1:hover").addClass("scrolling");
-} else {
-    $("h1:hover").removeClass("scrolling");
-}
-});</script>
-  </body>
+          if (scroll >= 100) {
+              $("li a").addClass("scrolling");
+          } else {
+              $("li a").removeClass("scrolling");
+          }
+          });
+  </script>
+
+
+  <script>
+          $(window).scroll(function() {
+          var scroll = $(window).scrollTop();
+
+          if (scroll >= 100) {
+              $("h3").addClass("scrolling");
+          } else {
+              $("h3").removeClass("scrolling");
+          }
+          });
+  </script>
+
+
+  <script>
+          $(window).scroll(function() {
+          var scroll = $(window).scrollTop();
+
+          if (scroll >= 200) {
+              $("h1:hover").addClass("scrolling");
+          } else {
+              $("h1:hover").removeClass("scrolling");
+          }
+          });
+  </script>
+
+ </body>
 </html>

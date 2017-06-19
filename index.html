@@ -195,9 +195,13 @@
 
 
 <div class="flex-container-index">
+
     <div class="index-image">
-       <img src="./images/goodreads.jpg" alt="chair bannersd"></a>
-     </div>
+
+       <img src="./images/goodreads.jpg" alt="chair bannersd">
+
+   </div>
+
           <div class="index-intro">
             <h5>My work</h5>
                 <h4>I am a Multimedia Designer for a resort company who currently manages six CMS websites {Wordpress powered and a second CMS Travel company}, most of my work has been concentrated in evolving the UX/UI of the resort sites, helping define, strengthen and differentiate the brand and improving site experience and performance. I have worked as an independent designer {graphic and surface design} since 2008, winning multiple awards and recognitions in public design websites like <a href="https://www.spoonflower.com/profiles/natitys" target="_blank">Spoonflower</a>, my work has been featured in shows like <a href="https://www.surtex.com/" target="_blank">Surtex</a> and <a href="http://www.blueprintshows.com/" target="_blank">Blueprint</a>.
@@ -319,239 +323,219 @@
                   <a href="https://github.com/Eloisadocton" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
             </div>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script type="text/javascript">
-//jQuery is required to run this code
-jQuery( document ).ready(function() {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
 
-    scaleVideoContainer();
+  <script type="text/javascript">
+          jQuery( document ).ready(function() {
 
-    initBannerVideoSize('.video-container .poster img');
-    initBannerVideoSize('.video-container .filter');
-    initBannerVideoSize('.video-container video');
+          scaleVideoContainer();
 
-    jQuery(window).on('resize', function() {
-        scaleVideoContainer();
-        scaleBannerVideoSize('.video-container .poster img');
-        scaleBannerVideoSize('.video-container .filter');
-        scaleBannerVideoSize('.video-container video');
-    });
+          initBannerVideoSize('.video-container .poster img');
+          initBannerVideoSize('.video-container .filter');
+          initBannerVideoSize('.video-container video');
 
-});
+          jQuery(window).on('resize', function() {
+              scaleVideoContainer();
+              scaleBannerVideoSize('.video-container .poster img');
+              scaleBannerVideoSize('.video-container .filter');
+              scaleBannerVideoSize('.video-container video');
+          });
 
-function scaleVideoContainer() {
+          });
 
-    var height = jQuery(window).height() + 5;
-    var unitHeight = parseInt(height) + 'px';
-    jQuery('.homepage-hero-module').css('height',unitHeight);
+          function scaleVideoContainer() {
 
-}
+          var height = jQuery(window).height() + 5;
+          var unitHeight = parseInt(height) + 'px';
+          jQuery('.homepage-hero-module').css('height',unitHeight);
 
-function initBannerVideoSize(element){
+          }
 
-    jQuery(element).each(function(){
-        jQuery(this).data('height', jQuery(this).height());
-        jQuery(this).data('width', jQuery(this).width());
-    });
+          function initBannerVideoSize(element){
 
-    scaleBannerVideoSize(element);
+          jQuery(element).each(function(){
+              jQuery(this).data('height', jQuery(this).height());
+              jQuery(this).data('width', jQuery(this).width());
+          });
 
-}
+          scaleBannerVideoSize(element);
 
-function scaleBannerVideoSize(element){
+          }
 
-    var windowWidth = jQuery(window).width(),
-    windowHeight = jQuery(window).height() + 5,
-    videoWidth,
-    videoHeight;
+          function scaleBannerVideoSize(element){
 
-    console.log(windowHeight);
+          var windowWidth = jQuery(window).width(),
+          windowHeight = jQuery(window).height() + 5,
+          videoWidth,
+          videoHeight;
 
-    jQuery(element).each(function(){
-        var videoAspectRatio = jQuery(this).data('height')/jQuery(this).data('width');
+          console.log(windowHeight);
 
-        jQuery(this).width(windowWidth);
+          jQuery(element).each(function(){
+              var videoAspectRatio = jQuery(this).data('height')/jQuery(this).data('width');
 
-        if(windowWidth < 1000){
-            videoHeight = windowHeight;
-            videoWidth = videoHeight / videoAspectRatio;
-            jQuery(this).css({'margin-top' : 0, 'margin-left' : -(videoWidth - windowWidth) / 2 + 'px'});
+              jQuery(this).width(windowWidth);
 
-            jQuery(this).width(videoWidth).height(videoHeight);
-        }
+              if(windowWidth < 1000){
+                  videoHeight = windowHeight;
+                  videoWidth = videoHeight / videoAspectRatio;
+                  jQuery(this).css({'margin-top' : 0, 'margin-left' : -(videoWidth - windowWidth) / 2 + 'px'});
 
-        jQuery('.homepage-hero-module .video-container video').addClass('fadeIn animated');
+                  jQuery(this).width(videoWidth).height(videoHeight);
+              }
 
-    });
-}
-</script>
+              jQuery('.homepage-hero-module .video-container video').addClass('fadeIn animated');
 
-                <script>
-                	$(window).scroll(function() {
-                		$('#object').each(function(){
-                		var imagePos = $(this).offset().top;
+          });
+          }
+  </script>
 
-                		var topOfWindow = $(window).scrollTop();
-                			if (imagePos < topOfWindow+400) {
-                				$(this).addClass("pullDown");
-                			}
-                		});
-                	});
-                </script>
+  <script>
+          $(window).scroll(function() {
+            $('#object').each(function(){
+            var imagePos = $(this).offset().top;
 
-                <script>
-                	$('#object').click(function() {
-                		$(this).addClass("pullDown");
-                	});
-                </script>
+            var topOfWindow = $(window).scrollTop();
+              if (imagePos < topOfWindow+400) {
+                $(this).addClass("pullDown");
+              }
+            });
+          });
+  </script>
 
-<!-- Dribbble API -->
-<script type='text/javascript'>
-$(function() {
-  $.getJSON('https://api.dribbble.com/v1/users/USERNAME/shots?access_token=TOKEN&callback=?', function(resp) {
-    if (resp.data.length > 0) {
-      $.each(resp.data.reverse(), function(i, val) {
-        $('#dribbble').prepend(
-          '<li class="box"><img src="'+val.images.normal+'" /><h2>'+val.title+'</h2><p><a href="'+val.html_url+'">original post &rarr;</a></p></li>'
-        );
-      });
-    }
-    else {
-      $('#dribbble').append('<li>No shots.</li>');
-    }
-  });
-});
-</script>
-<script>
-//jQuery is required to run this code
-$( document ).ready(function() {
+  <script>
+        $('#object').click(function() {
+          $(this).addClass("pullDown");
+        });
+  </script>
 
-    scaleVideoContainer();
 
-    initBannerVideoSize('.video-container .poster img');
-    initBannerVideoSize('.video-container .filter');
-    initBannerVideoSize('.video-container video');
+  <script>
+            $( document ).ready(function() {
 
-    $(window).on('resize', function() {
-        scaleVideoContainer();
-        scaleBannerVideoSize('.video-container .poster img');
-        scaleBannerVideoSize('.video-container .filter');
-        scaleBannerVideoSize('.video-container video');
-    });
+            scaleVideoContainer();
 
-});
+            initBannerVideoSize('.video-container .poster img');
+            initBannerVideoSize('.video-container .filter');
+            initBannerVideoSize('.video-container video');
 
-function scaleVideoContainer() {
+            $(window).on('resize', function() {
+                scaleVideoContainer();
+                scaleBannerVideoSize('.video-container .poster img');
+                scaleBannerVideoSize('.video-container .filter');
+                scaleBannerVideoSize('.video-container video');
+            });
 
-    var height = $(window).height() + 5;
-    var unitHeight = parseInt(height) + 'px';
-    $('.homepage-hero-module').css('height',unitHeight);
+            });
 
-}
+            function scaleVideoContainer() {
 
-function initBannerVideoSize(element){
+            var height = $(window).height() + 5;
+            var unitHeight = parseInt(height) + 'px';
+            $('.homepage-hero-module').css('height',unitHeight);
 
-    $(element).each(function(){
-        $(this).data('height', $(this).height());
-        $(this).data('width', $(this).width());
-    });
+            }
 
-    scaleBannerVideoSize(element);
+            function initBannerVideoSize(element){
 
-}
+            $(element).each(function(){
+                $(this).data('height', $(this).height());
+                $(this).data('width', $(this).width());
+            });
 
-function scaleBannerVideoSize(element){
+            scaleBannerVideoSize(element);
 
-    var windowWidth = $(window).width(),
-    windowHeight = $(window).height() + 5,
-    videoWidth,
-    videoHeight;
+            }
 
-    // console.log(windowHeight);
+            function scaleBannerVideoSize(element){
 
-    $(element).each(function(){
-        var videoAspectRatio = $(this).data('height')/$(this).data('width');
+            var windowWidth = $(window).width(),
+            windowHeight = $(window).height() + 5,
+            videoWidth,
+            videoHeight;
 
-        $(this).width(windowWidth);
+            // console.log(windowHeight);
 
-        if(windowWidth < 1000){
-            videoHeight = windowHeight;
-            videoWidth = videoHeight / videoAspectRatio;
-            $(this).css({'margin-top' : 0, 'margin-left' : -(videoWidth - windowWidth) / 2 + 'px'});
+            $(element).each(function(){
+                var videoAspectRatio = $(this).data('height')/$(this).data('width');
 
-            $(this).width(videoWidth).height(videoHeight);
-        }
+                $(this).width(windowWidth);
 
-        $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
+                if(windowWidth < 1000){
+                    videoHeight = windowHeight;
+                    videoWidth = videoHeight / videoAspectRatio;
+                    $(this).css({'margin-top' : 0, 'margin-left' : -(videoWidth - windowWidth) / 2 + 'px'});
 
-    });
-}</script>
-<script>
-$(window).scroll(function() {
-    var scroll = $(window).scrollTop();
+                    $(this).width(videoWidth).height(videoHeight);
+                }
 
-    if (scroll >= 200) {
-        $("nav").addClass("scrolling");
-    } else {
-        $("nav").removeClass("scrolling");
-    }
-});</script>
+                $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
 
-<script>
-$(window).scroll(function() {
-    var scroll = $(window).scrollTop();
+            });
+            }
+  </script>
 
-    if (scroll >= 200) {
-        $("h1").addClass("scrolling");
-    } else {
-        $("h1").removeClass("scrolling");
-    }
-});</script>
 
-<script>
-$(window).scroll(function() {
-    var scroll = $(window).scrollTop();
+  <script>
+          $(window).scroll(function() {
+          var scroll = $(window).scrollTop();
 
-    if (scroll >= 200) {
-        $("li a").addClass("scrolling");
-    } else {
-        $("li a").removeClass("scrolling");
-    }
-});</script>
+          if (scroll >= 200) {
+              $("nav").addClass("scrolling");
+          } else {
+              $("nav").removeClass("scrolling");
+          }
+          });
+  </script>
 
-<script>
-$(window).scroll(function() {
-    var scroll = $(window).scrollTop();
+  <script>
+          $(window).scroll(function() {
+          var scroll = $(window).scrollTop();
 
-    if (scroll >= 200) {
-        $("h3").addClass("scrolling");
-    } else {
-        $("h3").removeClass("scrolling");
-    }
-});</script>
-<script>
-$(window).scroll(function() {
-    var scroll = $(window).scrollTop();
+          if (scroll >= 200) {
+              $("h1").addClass("scrolling");
+          } else {
+              $("h1").removeClass("scrolling");
+          }
+          });</script>
 
-    if (scroll >= 200) {
-        $("h1:hover").addClass("scrolling");
-    } else {
-        $("h1:hover").removeClass("scrolling");
-    }
-});</script>
+          <script>
+          $(window).scroll(function() {
+          var scroll = $(window).scrollTop();
 
-<script>
-$(window).scroll(function() {
-    var scroll = $(window).scrollTop();
+          if (scroll >= 200) {
+              $("li a").addClass("scrolling");
+          } else {
+              $("li a").removeClass("scrolling");
+          }
+          });
+  </script>
 
-    if (scroll >= 300) {
-        $("h5").addClass("scrolling");
-    } else {
-        $("h5").removeClass("scrolling");
-    }
-});</script>
-<script>
 
-<script src="https://code.jquery.com/jquery-latest.js"></script>
+  <script>
+          $(window).scroll(function() {
+          var scroll = $(window).scrollTop();
+
+          if (scroll >= 200) {
+              $("h3").addClass("scrolling");
+          } else {
+              $("h3").removeClass("scrolling");
+          }
+          });
+  </script>
+
+
+  <script>
+          $(window).scroll(function() {
+          var scroll = $(window).scrollTop();
+
+          if (scroll >= 200) {
+              $("h1:hover").addClass("scrolling");
+          } else {
+              $("h1:hover").removeClass("scrolling");
+          }
+          });
+  </script>
   </body>
 </html>
