@@ -755,6 +755,7 @@
 /*ILLUSTRATIONS PAGE*/
       .illustrations-hero img{
         width: 100%;
+        height: 100%;
       }
       .illustrations-info {
         margin-top: 1%;
