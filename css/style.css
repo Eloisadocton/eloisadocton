@@ -617,6 +617,16 @@
         width: 90%;
         float: right;
       }
+      .flex-container-projects-app {
+        margin-top: 1%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+        float: right;
+      }
       .project-preview-image {
         clear: both;
         float: left;
@@ -635,6 +645,42 @@
         text-align: justify;
         width: 40%;
         margin-top: 8%;
+      }
+      .project-preview-intro-branchless {
+        float: right;
+        text-align: justify;
+        width: 40%;
+        margin-top: 1%;
+      }
+      .branchlessbox {
+        position: relative;
+        overflow: hidden;
+        float: left;
+        display: block;
+        height: 900px;
+        margin-right: 1%;
+      }
+      .branchlessbox iframe {
+        position: relative;
+        overflow: hidden;
+        float: left;
+        display: block;
+        padding: .5%;
+        height: 100%;
+      }
+      .branchless-sketches {
+        padding: 0% 5%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        overflow: scroll;
+        background-color: white;
+      }
+      .branchless-sketches img {
+        width: 50%;
+        height: 50%;
       }
       .project-web-preview-image {
         clear: both;
@@ -787,8 +833,18 @@
       .ironyard-intro {
         margin: 4%;
       }
+      .sketches {
+        padding: 0% 5%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        overflow: scroll;
+        background-color: white;
+      }
       .sketches img {
-      width: 100%;
+        width: 70%;
       }
 
 
@@ -816,7 +872,7 @@
         width: 100%;
       }
       .bikemd-hero img {
-        width: auto;
+        width: 65%;
         display: block;
         margin: 0 auto;
       }
@@ -825,14 +881,19 @@
       }
 /*GOOD READS PAGE*/
       .projects-more img{
-        width: auto;
+        width: 40%;
         display: block;
         margin: 0 auto;
+      }
+      .goodreads-intro {
+        margin: 4%;
       }
 /* SPOONFLOWER PAGE*/
       .sfhero img {
         display: block;
         margin: 0 auto;
+        width: 40%;
+        padding: 4%;
       }
 
 
@@ -944,8 +1005,10 @@
         .mobile-index-intro {
           width: 100% !important;
           text-align: center;
-          margin: 4%;
+          margin-top: 100%;
           display: block;
+          background-color: #333a44;
+          padding: 4%;
         }
         .index-intro {
           display: none;
@@ -955,6 +1018,7 @@
         }
         .mobile-menu {
           display: block;
+          margin-top: 2%;
         }
         .mobile-about {
           padding: 5%;
@@ -1040,6 +1104,10 @@
           margin-top: 0;
           padding: 0;
         }
+        .portfolio-flex-container {
+
+          display: block;
+        }
         .half-portfolio-flex-container {
           position: relative;
           width: 50%;
@@ -1059,16 +1127,16 @@
         .thumb-image:hover img {
         opacity: .5;
         }
-        .mobile-menu {
-          display: block;
-        }
         .portfolio-flex-container-top-mobile {
           height: 200px;
           width: 100px;
           background-color: white;
           display: inline-block;
         }
-
+        .half-portfolio-flex-container {
+          display: block;
+          width: 100%;
+        }
         /*PROJECT PAGES*/
         .flex-container-projects {
           display: none;
@@ -1100,7 +1168,6 @@
           text-align: justify;
         }
         .landingpage {
-          padding: 0% 5%;
           display: flex;
           flex-direction: row;
           flex-wrap: wrap;
@@ -1167,5 +1234,24 @@
           width: 100%;
           display: block;
           margin: 0 auto;
+        }
+
+        /*MARLETING AND PROMOS PAGE*/
+        .flex-container-promos{
+          padding: 0% 0%;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+          position: relative;
+          overflow: scroll;
+          background-color: white;
+        }
+        /*BRANCHLESS*/
+        .project-preview-intro-branchless {
+        display: none;
+        }
+        .branchless-sketches img{
+          width: 100%;
         }
       }
