@@ -577,6 +577,22 @@
         float: left;
         display: block;
       }
+      .half-portfolio-flex-container .text {
+        position:absolute;
+        top: 50%;
+        left: 40%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        visibility:hidden;
+      }
+      .half-portfolio-flex-container:hover .text {
+        visibility:visible;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s;
+      }
+      h2.text:hover {
+        font-weight: bold;
+      }
       .thumb-image img {
         width: 100%;
         opacity: 1;
@@ -587,8 +603,9 @@
         line-height: 0;
       }
       .thumb-image:hover img {
-      opacity: .5;
+      opacity: .3;
       }
+
 /*PROJECTS PAGES*/
       .flex-container-projects {
         margin-top: 8%;
@@ -815,11 +832,8 @@
       .sfhero img {
         display: block;
         margin: 0 auto;
-        max-width: 500px;
       }
-      .sfhero {
-        margin: 2%;
-      }
+
 
 /*HIDDEN MOBILE GOODS ON DESKTOP*/
       .mobile-index-intro {
