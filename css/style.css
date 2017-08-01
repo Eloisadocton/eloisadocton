@@ -559,7 +559,7 @@
         justify-content: center;
         position: relative;
         margin-top: 7%;
-        margin-bottom: 3%;
+        margin-bottom: 10%;
       }
       .resume-image {
         display: none;
@@ -716,7 +716,7 @@
         margin-top: 20px;
       }
       .mobile-hero-gif img {
-        width: 1000px;
+        max-width: 1000px;
         margin-top: 50px;
         display: block;
         margin: 0 auto;
@@ -742,7 +742,6 @@
       .videobox {
         width: 100%;
         height: 100%;
-        padding: 1%;
       }
       .videobox iframe {
         position: relative;
@@ -754,8 +753,8 @@
         height: 350px;
       }
       .video-intro {
-        padding: 4%;
-        margin: 4%;
+        padding: 3%;
+        margin-bottom: -2%;
       }
       .videos {
         margin-left: 7%;
@@ -797,6 +796,36 @@
         -webkit-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
       }
+      .divihero img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+      }
+
+      .divihero {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: -2%;
+      }
+      .ui {
+        padding: 4%;
+      }
+     .web-hero img{
+        width: 100%;
+      }
+      .web-hero {
+         width: 100%;
+         height: 500px;
+         overflow: hidden;
+       }
+       .ui-intro {
+         margin: 4%;
+       }
+       .thumb-image1 img {
+         max-height: width: 70%;
+         margin: 0 auto;
+       }
+
 
 /*ILLUSTRATIONS PAGE*/
       .illustrations-hero img{
@@ -844,7 +873,7 @@
         background-color: white;
       }
       .sketches img {
-        width: 70%;
+        max-width: 70%;
       }
 
 
@@ -872,7 +901,8 @@
         width: 100%;
       }
       .bikemd-hero img {
-        width: 65%;
+        width: auto;
+        max-width: 70%;
         display: block;
         margin: 0 auto;
       }
@@ -1198,7 +1228,6 @@
         .videobox {
           width: 100%;
           height: 100%;
-          padding: 1%;
         }
         .videobox iframe {
           position: relative;
