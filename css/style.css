@@ -766,14 +766,19 @@
         padding-top: 4%;
         text-align: center;
       }
-
+      .video-description {
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
       .video-title {
         margin-top: 15%;
         text-align: center;
         width: 100%;
         margin-bottom: 10%;
       }
-
+      h3.description-video {
+        color: black;
+      }
       h1.title-video {
         font-size: 4vw;
         font-family: 'LemonMilk', Fallback, sans-serif;
@@ -1271,10 +1276,13 @@
         }
         .videos {
           margin-left: 0%;
-
+              width: 100%;
         }
         h5.video-title {
           padding-top: 4%;
+        }
+        video {
+              width: 100%;
         }
         /*BIKE MD*/
         .bikemd-hero img {
