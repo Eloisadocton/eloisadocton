@@ -117,7 +117,7 @@
 /*INDEX STUFF*/
       video.fillWidth {
         width: 100%;
-        height: 80vh;
+        /*height: 80vh;*/
         position: fixed;
         top: 0;
         right: 0;
@@ -129,6 +129,7 @@
         padding-top: 90px;
         padding-bottom: 90px;
       }
+
 
 /*NAVIGATION*/
       .logoleftnav {
@@ -865,8 +866,10 @@
         flex-wrap: wrap;
         justify-content: center;
         position: relative;
-        overflow: scroll;
+        overflow: hidden;
         background-color: white;
+        margin-top: 1%;
+        margin-bottom: 1%;
       }
       .flex-container {
         margin-top: 1%;
@@ -896,7 +899,35 @@
       .sketches img {
         max-width: 70%;
       }
-
+      .thumb-image-illustrations {
+        width: 50%;
+        flex: 1;
+      }
+      .thumb-image-illustrations img {
+        max-width: 100%;
+      }
+      .thumb-image-illustrations-info {
+        width: 50%;
+        background-color: #f9f9f9;
+        padding-top: 3%;
+        flex: 1;
+      }
+      h2.illustrations-textinfo {
+        text-align: center;
+      }
+      h4.illustrations-textinfo {
+        text-align: center;
+      }
+      p.illustrations-textinfo {
+        text-align: center;
+        font-size: 1vw;
+        text-transform: none;
+        font-size: 1vw;
+        font-weight: 200;
+      }
+      .illustrations-text {
+        padding: 0 3%;
+      }
 
 /*WEB PROJECTS FUN PAGE*/
       .thumb-image-web img {
@@ -919,17 +950,29 @@
 
 /*BIKE MD PAGE*/
       .bikemd-hero {
-        width: 100%;
+        margin-top: 4%;
+        height: 500px;
+        overflow: hidden;
       }
       .bikemd-hero img {
         width: auto;
-        max-width: 70%;
+        max-width: 100%;
         display: block;
         margin: 0 auto;
+
+      }
+      h1.bikemd-title {
+        color: black;
       }
       h4.bikemdtitle {
         text-align: center;
       }
+
+      .bikemd-info {
+          margin-top: 2%;
+          margin-left: 4%;
+          margin-right: 4%;
+        }
 /*GOOD READS PAGE*/
       .projects-more img{
         width: 40%;
@@ -971,6 +1014,9 @@
         display: none;
       }
       .mobile-hero-web {
+        display: none;
+      }
+.thumb-image-illustrations-mobile      {
         display: none;
       }
 
@@ -1292,7 +1338,52 @@
         }
         .bikemd-hero {
           margin-top: 0;
+          padding-top: 10%;
         }
+
+        h1.bikemd-title {
+          color: black;
+          font-size: 4vw;
+          margin-top: 1%;
+        }
+        h4.bikemdtitle {
+          text-align: center;
+          font-size: 4em;
+        }
+
+        .bikemd-info {
+            margin-top: 2%;
+            margin-left: 4%;
+            margin-right: 4%;
+          }
+          h2.illustrations-textinfo {
+            text-align: center;
+            font-size: 4em;
+            margin-bottom: 10px;
+            margin-top: 40px;
+          }
+          h4.illustrations-textinfo {
+            text-align: center;
+            font-size: 3em;
+            margin: 10px;
+          }
+          p.illustrations-textinfo {
+            text-align: center;
+            font-size: 2em!important;
+            text-transform: none;
+            font-size: 1vw;
+            font-weight: 200;
+          }
+          .illustrations-text {
+            padding: 0 3%;
+          }
+          .flex-container-illustrations {
+            background-color: #f9f9f9;
+            padding-top: 4%;
+            padding-bottom: 4%;
+          }
+
+
         /*GOODREADS PAGE*/
         .projects-more img{
           width: 100%;
@@ -1317,5 +1408,8 @@
         }
         .branchless-sketches img{
           width: 100%;
+        }
+        .desktop {
+          display: none;
         }
       }
