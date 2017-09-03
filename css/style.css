@@ -955,11 +955,10 @@
         overflow: hidden;
       }
       .bikemd-hero img {
-        width: auto;
-        max-width: 100%;
+        width: 100%;
         display: block;
         margin: 0 auto;
-
+        min-height: 400px;
       }
       h1.bikemd-title {
         color: black;
@@ -989,7 +988,27 @@
         width: 40%;
         padding: 4%;
       }
-
+      .spoonflower-hero {
+        margin-top: 4%;
+        height: 500px;
+        overflow: hidden;
+      }
+      .spoonflower-hero img {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        min-height: 400px;
+      }
+      .blogbutton {
+        background-color: #333a44;
+        padding: 1%;
+        width: 35%;
+      }
+      a.blogbutton:hover {
+        color: #74ccd1;
+        padding: 1%;
+        width: 35%;
+      }
 
 /*HIDDEN MOBILE GOODS ON DESKTOP*/
       .mobile-index-intro {
