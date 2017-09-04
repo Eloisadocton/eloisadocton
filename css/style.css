@@ -951,14 +951,13 @@
 /*BIKE MD PAGE*/
       .bikemd-hero {
         margin-top: 4%;
-        height: 500px;
-        overflow: hidden;
+        min-height: 700px;
       }
       .bikemd-hero img {
         width: 100%;
         display: block;
         margin: 0 auto;
-        min-height: 400px;
+        height: 100%;
       }
       h1.bikemd-title {
         color: black;
@@ -991,7 +990,7 @@
       .spoonflower-hero {
         margin-top: 4%;
         min-height: 700px;
-  
+
       }
       .spoonflower-hero img {
         width: 100%;
