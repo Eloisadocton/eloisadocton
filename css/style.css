@@ -980,6 +980,50 @@
       .goodreads-intro {
         margin: 4%;
       }
+      .flex-container-goodreads{
+        padding: 0% 5%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        background-color: white;
+        margin-top: 1%;
+        margin-bottom: 1%;
+      }
+      .goodreads-text {
+        padding: 0 3%;
+      }
+      .goodreads-wireframes-text {
+        padding: 0 3%;
+      }
+      .thumb-image-goodreads-info {
+        width: 25%;
+        background-color: #ffffff;
+        padding: 6%;
+        flex: 1;
+      }
+      .thumb-image-goodreads-wireframes-info {
+        width: 25%;
+        background-color: #f9f9f9;
+        padding: 6%;
+        flex: 1;
+      }
+      .blogbutton {
+        background-color: #333a44;
+        padding: 6%;
+        width: 70%;
+      }
+      a.blogbutton:hover {
+        color: #74ccd1;
+        padding: 1%;
+        width: 35%;
+      }
+      .blogbutton h1{
+        font-size: .75vw;
+      }
+
 /* SPOONFLOWER PAGE*/
       .sfhero img {
         display: block;
@@ -1408,6 +1452,22 @@
           width: 100%;
           display: block;
           margin: 0 auto;
+        }
+        .thumb-image-goodreads-wireframes-info-mobile img {
+          width: 100%;
+        }
+        .blogbutton {
+          background-color: #333a44;
+          padding: 6%;
+          width: 70%;
+        }
+        a.blogbutton:hover {
+          color: #74ccd1;
+          padding: 1%;
+          width: 35%;
+        }
+        .blogbutton h1{
+          font-size: 4vw;
         }
 
         /*MARLETING AND PROMOS PAGE*/
