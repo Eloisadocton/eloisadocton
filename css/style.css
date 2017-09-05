@@ -683,6 +683,12 @@
         width: 50%;
         height: 50%;
       }
+      .branchless-hero {
+        background-image: url("http://eloisadocton.com/imgages/BranchlessBackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+      }
       .project-web-preview-image {
         clear: both;
         float: left;
