@@ -692,11 +692,11 @@ margin-left: 0;
         width: 50%;
         height: 50%;
       }
-      .branchless-hero {
+      /*.branchless-hero {
         background-image: url("http://www.eloisadocton.com/images/BranchlessBackground.png");
         background-size: 100%;
         background-repeat: no-repeat;
-height: 100%      }
+height: 100%      }*/
       .project-web-preview-image {
         clear: both;
         float: left;
