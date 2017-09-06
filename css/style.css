@@ -693,7 +693,7 @@ margin-left: 0;
         height: 50%;
       }
       .branchless-hero {
-        background-image: url("http://www.eloisadocton.com/images/BranchlessBackground.png");
+        background-image: url("/images/BranchlessBackground.png");
         background-size: 100%;
         background-repeat: no-repeat;
 height: 100%      }
@@ -702,6 +702,9 @@ height: 100%      }
         float: left;
         margin: 1%;
         width: 45%;
+      }
+      .branchless-page {
+        background-image: url("/images/BranchlessBackground.png");
       }
       .project-web-preview-image img {
         clear: both;
