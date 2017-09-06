@@ -626,7 +626,6 @@
         justify-content: center;
         position: relative;
         width: 100%;
-        float: right;
       }
       .project-preview-image {
         clear: both;
@@ -648,10 +647,9 @@
         margin-top: 8%;
       }
       .project-preview-intro-branchless {
-        float: right;
         text-align: justify;
         width: 40%;
-        margin-top: 1%;
+        margin-top: 15%;
       }
       .branchlessbox {
         position: relative;
@@ -685,10 +683,9 @@
       }
       .branchless-hero {
         background-image: url("http://www.eloisadocton.com/images/BranchlessBackground.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 800px;
-      }
+        background-size: 100%;
+        background-repeat: no-repeat;
+height: 100%      }
       .project-web-preview-image {
         clear: both;
         float: left;
@@ -731,6 +728,7 @@
       .mobile-info {
         padding: 4%;
         text-align: justify;
+        margin-top: 50%;
       }
       .mobile-hero {
         width: 1000px;
