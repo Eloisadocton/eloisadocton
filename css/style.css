@@ -854,14 +854,14 @@ height: 100%      }
         width: 100%;
       }*/
       .web-hero {
-         height: 40em;
+         height: 30em;
          overflow: hidden;
-         background-image: url("http://www.eloisadocton.com/images/background_image_divi_01.jpg");
+         background-image: url("http://www.eloisadocton.com/images/background_image_divi_01A.jpg");
          background-attachment: fixed;
          background-repeat: no-repeat;
          background-size: cover;
          background-position-x: 0;
-         background-position-y: -300px;
+         /*background-position-y: -300px;*/
        }
        .web-hero-title {
          margin-top: 200px;
