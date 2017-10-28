@@ -836,6 +836,8 @@ height: 100%      }
         -webkit-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
       }
+
+  
       .divihero img {
         display: block;
         margin: 0 auto;
@@ -856,7 +858,7 @@ height: 100%      }
       .web-hero {
          height: 30em;
          overflow: hidden;
-         background-image: url("http://www.eloisadocton.com/images/background_image_divi_01A.jpg");
+         background-image: url("http://www.eloisadocton.com/images/background_image_divi_01.jpg");
          background-attachment: fixed;
          background-repeat: no-repeat;
          background-size: cover;
