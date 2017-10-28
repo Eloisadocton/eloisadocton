@@ -850,13 +850,21 @@ height: 100%      }
       .ui {
         padding: 4%;
       }
-     .web-hero img{
+     /*.web-hero img{
         width: 100%;
-      }
+      }*/
       .web-hero {
-         width: 100%;
          height: 500px;
          overflow: hidden;
+         background-image: url("./images/background_image_divi_01.jpg");
+         background-attachment: fixed;
+         background-repeat: no-repeat;
+         background-size: contain;
+         background-position-x: 0;
+         background-position-y: 70px;
+       }
+       .web-hero-title {
+         margin-top: 200px;
        }
        .ui-intro {
          margin: 4%;
