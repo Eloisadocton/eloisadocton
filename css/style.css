@@ -40,6 +40,12 @@
       h1:hover.scrolling {
         color: #ffe2e6;
       }
+      h1.title1-illustrations:hover {
+        color:#ff71a1;
+      }
+      h1.title1-illustrations.scrolling {
+        color:#fb95c4;
+      }
       h2 {
         font-size: 1.3vw;
         letter-spacing: .2vw;
@@ -61,9 +67,63 @@
         text-transform: uppercase;
         font-weight: 200;
       }
+      h3.illustrations-designer {
+        margin: 0;
+        -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 6s; /* Firefox < 16 */
+        -ms-animation: fadein 6s; /* Internet Explorer */
+        -o-animation: fadein 6s; /* Opera < 12.1 */
+        animation: fadein 6s;
+        margin-left: 0;
+      }
+      h3.illustrations-drawer {
+        margin: 0;
+        -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 6s; /* Firefox < 16 */
+        -ms-animation: fadein 6s; /* Internet Explorer */
+        -o-animation: fadein 6s; /* Opera < 12.1 */
+        animation: fadein 6s;
+        margin-left: 0;
+      }
+      h3.illustrations-developer {
+        margin: 0;
+        -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 6s; /* Firefox < 16 */
+        -ms-animation: fadein 6s; /* Internet Explorer */
+        -o-animation: fadein 6s; /* Opera < 12.1 */
+        animation: fadein 6s;
+        margin-left: 0;
+      }
       h3.scrolling {
             color: white;
         }
+      h3.illustrations-designer.scrolling {
+        color: #ebe800;
+        -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 6s; /* Firefox < 16 */
+        -ms-animation: fadein 6s; /* Internet Explorer */
+        -o-animation: fadein 6s; /* Opera < 12.1 */
+        animation: fadein 6s;
+        margin-left: 0;
+        }
+        h3.illustrations-drawer.scrolling {
+          color: #ebe800;
+          -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+          -moz-animation: fadein 6s; /* Firefox < 16 */
+          -ms-animation: fadein 6s; /* Internet Explorer */
+          -o-animation: fadein 6s; /* Opera < 12.1 */
+          animation: fadein 6s;
+          margin-left: 0;
+          }
+          h3.illustrations-developer.scrolling {
+            color: #ebe800;
+            -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+            -moz-animation: fadein 6s; /* Firefox < 16 */
+            -ms-animation: fadein 6s; /* Internet Explorer */
+            -o-animation: fadein 6s; /* Opera < 12.1 */
+            animation: fadein 6s;
+            margin-left: 0;
+            }
       h4 {
         font-size: 1vw;
         line-height: 1.5;
@@ -312,15 +372,69 @@
         font-style: normal;
       }
       li a:hover {
-        font-family: 'LemonMilk', Fallback, sans-serif;
         color: #74ccd1;
-        transition: .7s;
       }
+
       li a.scrolling {
         color: white;
       }
       li a:hover.scrolling {
         color: #74ccd1;
+      }
+      li a.illustrations-li-about:hover {
+        color: white;
+        background-color: #ff71a1;
+        transition: .7s;
+      }
+
+      li a.illustrations-li-about:hover.scrolling {
+        color: white;
+      }
+      li a.illustrations-li-connect:hover.scrolling {
+        color: white;
+      }
+      li a.illustrations-li-resume:hover.scrolling {
+        color: white;
+      }
+      li a.illustrations-li-portfolio:hover.scrolling {
+        color: white;
+      }
+
+      li a.illustrations-li-connect:hover {
+        color: white;
+        background-color: #7ccac9;
+        transition: .7s;
+      }
+
+      li a.illustrations-li-resume:hover {
+        color: white;
+        background-color: #ff9966;
+        transition: .7s;
+      }
+
+      li a.illustrations-li-portfolio:hover {
+        color: white;
+        background-color: #aeae24;
+        transition: .7s;
+      }
+
+      li a.illustrations-li:hover:hover.scrolling {
+        color: #ff71a1;
+      }
+      li a.illustrations-spacer.scrolling {
+        color: #ffcd98;
+      }
+      li a.illustrations-li-portfolio.scrolling {
+        color: #c2f3e0;
+      }
+      li a.illustrations-li-resume.scrolling {
+        color: #c2f3e0;
+      }
+      li a.illustrations-li-connect.scrolling {
+        color: #c2f3e0;
+      }
+      li a.illustrations-li-about.scrolling {
+        color: #c2f3e0;
       }
       .active a{
         color: #6bb7bf;
@@ -949,6 +1063,20 @@ height: 100%      }
         margin-left: 4%;
         margin-right: 4%;
       }
+      .illustrations-icon {
+        display: block;
+        height: 100px;
+      }
+      .illustrations-hero {
+         height: 30em;
+         overflow: hidden;
+         background-image: url("http://www.eloisadocton.com/images/Illustrations.jpg");
+         background-attachment: fixed;
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position-x: 0;
+         /*background-position-y: -300px;*/
+       }
       .flex-container-illustrations{
         padding: 0% 5%;
         display: flex;
