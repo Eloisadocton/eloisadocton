@@ -189,7 +189,7 @@
         }
         h6.illustrations-textinfo-mobile{
           font-size: 3em;
-          text-align: left;
+          text-align: center;
           color: #414452;
         }
         h6.illustrations-textinfo-dev-mobile {
@@ -1614,6 +1614,25 @@ height: 100%      }
         video {
               width: 100%;
         }
+        /*ILLUSTRATIONS PAGE*/
+        .illustrations-hero {
+          height: 30em;
+          overflow: hidden;
+          background-image: url("http://www.eloisadocton.com/images/Illustrations.jpg");
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position-x: 0;
+        }
+        .spacer {
+          height: 80px;
+        }
+        .illustrations-info {
+          margin-top: 2%;
+        }
+        hr {
+          display: none;
+        }
         /*BIKE MD*/
         .bikemd-hero img {
           width: 100%;
@@ -1712,6 +1731,18 @@ height: 100%      }
         .thumb-image-divi-wireframes-info {
           width: 25%;
           border: #b8e8ef 4px solid;
+          padding: 6%;
+          flex: 1;
+        }
+        .thumb-image-divi-wireframes-info-pink {
+          width: 25%;
+          border: #efa1c7 4px solid;
+          padding: 6%;
+          flex: 1;
+        }
+        .thumb-image-divi-wireframes-info-yellow {
+          width: 25%;
+          border: #efdd33 4px solid;
           padding: 6%;
           flex: 1;
         }
