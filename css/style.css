@@ -46,6 +46,15 @@
       h1.title1-illustrations.scrolling {
         color:#fb95c4;
       }
+      h1.title1-video:hover {
+        color:#ff71a1;
+      }
+      h1.title1-video.scrolling {
+        color:#414452;
+      }
+      h1.title1-video {
+        color:#69c0cc;
+      }
       h2 {
         font-size: 1.3vw;
         letter-spacing: .2vw;
@@ -342,6 +351,10 @@
       }
       nav.scrolling {
         background-color: #414452;
+      }
+      nav.reel.scrolling {
+        background-color: #ceeef4;
+
       }
       .navigation-desktop {
         display: inline-table;
