@@ -46,11 +46,17 @@
       h1.title1-illustrations.scrolling {
         color:#fb95c4;
       }
+      h1.title1-divi:hover {
+        color:#ff71a1;
+      }
+      h1.title1-divi.scrolling {
+        color:#77d8e6;
+      }
       h1.title1-video:hover {
         color:#ff71a1;
       }
       h1.title1-video.scrolling {
-        color:#414452;
+        color:#ffffff;
       }
       h1.title1-video {
         color:#69c0cc;
@@ -353,7 +359,8 @@
         background-color: #414452;
       }
       nav.reel.scrolling {
-        background-color: #ceeef4;
+        background: rgba(255, 255, 255, 0.1);
+;
 
       }
       .navigation-desktop {
@@ -389,6 +396,10 @@
       }
 
       li a.scrolling {
+        color: white;
+      }
+
+      li a.divi.scrolling {
         color: white;
       }
       li a:hover.scrolling {
@@ -443,11 +454,14 @@
       li a.illustrations-li-resume.scrolling {
         color: #c2f3e0;
       }
+      li a.divi-li-resume.scrolling {
+        color: #c2f3e0;
+      }
       li a.illustrations-li-connect.scrolling {
         color: #c2f3e0;
       }
-      li a.illustrations-li-about.scrolling {
-        color: #c2f3e0;
+      li a.divi-li-about.scrolling {
+        color: #70cc69;
       }
       .active a{
         color: #6bb7bf;
@@ -1046,16 +1060,16 @@ height: 100%      }
          flex-wrap: wrap;
          justify-content: center;
          position: relative;
-         overflow: hidden;
-         background-color: white;
-         margin-top: 4%;
-         margin-bottom: 4%;
-         max-width: 1000px;
+         margin-left: auto;
+         margin-right: auto;
+         max-width: 1080px;
+         width: 83.33333%;
        }
        .thumb-image-diviresorts-info {
          background-color: #ffffff;
          padding: 6%;
          flex: 1;
+         width: 35%;
        }
        .ui-intro {
          margin: 4%;
@@ -1097,11 +1111,10 @@ height: 100%      }
         flex-wrap: wrap;
         justify-content: center;
         position: relative;
-        overflow: hidden;
-        background-color: white;
-        margin-top: 4%;
-        margin-bottom: 4%;
-        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1080px;
+        width: 83.33333%;
       }
       .thumb-image-illustrations-info img{
       }
@@ -1144,6 +1157,7 @@ height: 100%      }
         background-color: #ffffff;
         padding: 3%;
         flex: 1;
+        width: 30%;
       }
       h2.illustrations-textinfo {
         text-align: center;
@@ -1319,6 +1333,20 @@ height: 100%      }
       {
         display: none;
       }
+      .video-media{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  background-color: #181822;
+}
+.video-media iframe{
+  left:0;
+  top:9%;
+  height:70%;
+  width:100%;
+  position:absolute;
+}
 
 /*MEDIA QUERIES START HERE*/
 /*IPHONES 5 THROUGH IPAD MINI*/
@@ -1620,10 +1648,11 @@ height: 100%      }
           padding: 4%;
           margin: 4%;
         }
-        .videos {
+        /*.videos {
           margin-left: 0%;
               width: 100%;
-        }
+        }*/
+
         h5.video-title {
           padding-top: 4%;
         }
@@ -1697,12 +1726,6 @@ height: 100%      }
             padding: 3%;
             padding-bottom: 3%;
           }
-          /*.flex-container-illustrations {
-            background-color: #f9f9f9;
-            padding-top: 4%;
-            padding-bottom: 4%;
-          }*/
-
 
         /*GOODREADS PAGE*/
         .projects-more img{
