@@ -870,7 +870,7 @@ margin-left: 0;
         background-image: url("/images/BranchlessBackground.png");
         background-size: 100%;
         background-repeat: no-repeat;
-height: 100%      }
+        height: 100%      }
       .project-web-preview-image {
         clear: both;
         float: left;
@@ -879,6 +879,30 @@ height: 100%      }
       }
       .branchless-page {
         background-image: url("/images/BranchlessBackground.png");
+      }
+      .flex-container-branchless{
+        border-top: 1px #ceeef4 solid;
+        border-bottom: 1px #ceeef4 solid;
+      }
+      .inner-flex-container-branchless {
+        padding: 0% 5%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        background-color: white;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        max-width: 1080px;
+        width: 83.33333%;
+      }
+      .thumb-image-branchless-info {
+        width: 10%;
+        background-color: #ffffff;
+        padding: 6%;
+        flex: 1;
       }
       .project-web-preview-image img {
         clear: both;
@@ -1199,15 +1223,9 @@ height: 100%      }
       }
 
 /*BIKE MD PAGE*/
-
-      .bikemd-hero {
-        height: 30em;
-        overflow: hidden;
-        background-image: url("http://www.eloisadocton.com/images/bikeMDheroku.png");
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position-x: 0;
+      .desktop-bikemd {
+        margin-top: 35%;
+        background-color: white;
       }
       h1.bikemd-title {
         color: black;
@@ -1232,6 +1250,16 @@ height: 100%      }
       .goodreads-intro {
         margin: 4%;
       }
+      .goodreads-hero {
+         height: 35em;
+         overflow: hidden;
+         background-image: url("http://www.eloisadocton.com/images/ironyard.png");
+         background-attachment: fixed;
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position-x: 0;
+         /*background-position-y: -300px;*/
+       }
       .flex-container-goodreads{
         padding: 0% 5%;
         display: flex;
@@ -1310,6 +1338,9 @@ height: 100%      }
         display: none;
       }
       .mobile-menu {
+        display: none;
+      }
+      .mobile-menu-bikemd {
         display: none;
       }
       .mobile-name {
@@ -1445,6 +1476,10 @@ height: 100%      }
           display: block;
           margin-top: 2%;
         }
+        .mobile-menu-bikemd {
+          display: block;
+          margin-top: 0;
+        }
         .mobile-about {
           padding: 5%;
           border-bottom: 2px solid black;
@@ -1553,7 +1588,7 @@ height: 100%      }
         opacity: .5;
         }
         .portfolio-flex-container-top-mobile {
-          height: 200px;
+          height: 190px;
           width: 100px;
           background-color: white;
           display: inline-block;
@@ -1667,7 +1702,7 @@ height: 100%      }
           background-image: url("http://www.eloisadocton.com/images/Illustrations.jpg");
           background-attachment: fixed;
           background-repeat: no-repeat;
-          background-size: cover;
+          background-size: auto;
           background-position-x: 0;
         }
         .spacer {
@@ -1808,4 +1843,52 @@ height: 100%      }
         .desktop {
           display: none;
         }
+        /*BIKE MD*/
+        .fillWidth {
+          display: none;
+        }
+        .desktop-bikemd {
+          display: none;
+        }
+        .bikemd-hero {
+          height: 30em;
+          overflow: hidden;
+          background-image: url("http://www.eloisadocton.com/images/bikeMDheroku.png");
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          background-size: auto;
+          background-position-x: 0;
+        }
+        .mobile-flex-container-illustrations{
+          margin-top: 10%;
+          padding: 10% 10%;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+          position: relative;
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 1080px;
+          width: 83.33333%;
+        }
+        .thumb-image-bikemd-wireframes-info {
+          width: 25%;
+          border: #46756e 4px solid;
+          padding: 6%;
+          flex: 1;
+        }
+        /*REEL PAGE*/
+        .video-media {
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        height: 0;
+        background-color: #181822;
+        height: 350px;
+        }
+        .desktop-bikemd {
+          display: none;
+        }
+
       }
