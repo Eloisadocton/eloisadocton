@@ -1312,15 +1312,17 @@ margin-left: 0;
         padding: 4%;
       }
       .spoonflower-hero {
-        margin-top: 4%;
-        min-height: 700px;
-
+        height: 35em;
+        overflow: hidden;
+        background-image: url("http://www.eloisadocton.com/images/natdress1.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 0;
+        /*background-position-y: -300px;*/
       }
-      .spoonflower-hero img {
-        width: 100%;
-        display: block;
-        margin: 0 auto;
-        height: 100%;
+      .spoonflower-text {
+        padding-top: 2%;
       }
       .blogbutton {
         background-color: #333a44;
