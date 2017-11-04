@@ -904,6 +904,7 @@ margin-left: 0;
         padding: 6%;
         flex: 1;
       }
+
       .project-web-preview-image img {
         clear: both;
         float: left;
@@ -1195,6 +1196,13 @@ margin-left: 0;
         font-size: 1vw;
         font-weight: 200;
       }
+      p.goodreads-textinfo {
+        text-align: left;
+        font-size: 1vw;
+        text-transform: none;
+        font-size: 1vw;
+        font-weight: 200;
+      }
       .illustrations-top {
         padding: 0 3%;
         margin-bottom: 6%;
@@ -1281,7 +1289,7 @@ margin-left: 0;
       .thumb-image-goodreads-info {
         width: 25%;
         background-color: #ffffff;
-        padding: 6%;
+        padding: 3%;
         flex: 1;
       }
       .thumb-image-goodreads-wireframes-info {
