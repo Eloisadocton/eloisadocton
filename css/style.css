@@ -739,6 +739,9 @@
       .resume-image {
         display: none;
       }
+      .mobile-resume {
+        display: none;
+      }
 /*PORTFOLIO PAGE*/
       .portfolio-flex-container-top {
         width: 100%;
@@ -1483,8 +1486,8 @@ margin-left: 0;
           display: none;
         }
         .mobile-menu {
+          padding-top: 20%;
           display: block;
-          margin-top: 2%;
         }
         .mobile-menu-bikemd {
           display: block;
@@ -1493,6 +1496,9 @@ margin-left: 0;
         .mobile-about {
           padding: 5%;
           border-bottom: 2px solid black;
+        }
+        .mobile-about img {
+          width: 100%;
         }
         .mobile-about:hover {
         background-color: #333a44;
@@ -1562,9 +1568,8 @@ margin-left: 0;
         .resume {
           display: none;
         }
-        .resume-image {
-          padding-top: 20%;
-          display: block;
+        .mobile-resume img{
+          margin-top: 20%;
           width: 100%;
         }
 
@@ -1900,5 +1905,5 @@ margin-left: 0;
         .desktop-bikemd {
           display: none;
         }
-
+    
       }
