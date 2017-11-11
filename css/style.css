@@ -37,8 +37,23 @@
       h1.scrolling {
         color: white;
       }
+      h1.scrolling2 {
+        color: black;
+      }
+      h1.scrolling3 {
+        color: white;
+      }
       h1:hover.scrolling {
         color: #ffe2e6;
+      }
+      h1:hover.scrolling2 {
+        color: white;
+      }
+      h1:hover.scrolling2 {
+        color: white;
+      }
+      h1:hover.scrolling3 {
+        color: black;
       }
       h1.title1-illustrations:hover {
         color:#ff71a1;
@@ -112,6 +127,12 @@
       h3.scrolling {
             color: white;
         }
+      h3.scrolling2 {
+        color: black;
+      }
+      h3.scrolling3 {
+        color: white;
+      }
       h3.illustrations-designer.scrolling {
         color: #ebe800;
         -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
@@ -359,8 +380,12 @@
       }
       nav.reel.scrolling {
         background: rgba(255, 255, 255, 0.1);
-;
-
+        }
+      nav.scrolling2 {
+        background-color: #ffd8e6;
+      }
+      nav.scrolling3 {
+        background-color: #C73B6F;
       }
       .navigation-desktop {
         display: inline-table;
@@ -393,16 +418,30 @@
       li a:hover {
         color: #74ccd1;
       }
-
       li a.scrolling {
         color: white;
       }
-
+      li a.scrolling2 {
+        color: black;
+      }
+      li a.scrolling3 {
+        color: white;
+      }
       li a.divi.scrolling {
         color: white;
       }
       li a:hover.scrolling {
         color: #74ccd1;
+      }
+      li a:hover.scrolling2 {
+        color: white;
+        background-color: #414452;
+        transition: .5s;
+      }
+      li a:hover.scrolling3 {
+        border-bottom: solid 2px white;
+        background-color: #C73B6F;
+}
       }
       li a.illustrations-li-about:hover {
         color: white;
@@ -1905,5 +1944,5 @@ margin-left: 0;
         .desktop-bikemd {
           display: none;
         }
-    
+
       }
