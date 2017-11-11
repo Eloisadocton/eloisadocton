@@ -182,7 +182,7 @@ When I moved onto web design, the same fundamentals worked best, research, creat
 
 <div class="background">
 
-<div id="containerA" class="flex-container-index-2">
+<!-- <div id="containerA" class="flex-container-index-2">
     <h2 style="color: white;">Cool stuff I use</h2>
          <div class="index-image-2">
                <img src="./images/SoftA-01.png" alt="wallpaper by eloisa">
@@ -190,33 +190,7 @@ When I moved onto web design, the same fundamentals worked best, research, creat
          <div class="index-image-3">
                <img src="./images/SoftB-01.png" alt="wallpaper by eloisa">
          </div>
-</div>
-
-<div id="containerB" class="flex-container-index-3">
-    <h2>LATEST UPLOADS</h2>
-
-<!-- DRIBBLE API -->
-          <script type='text/javascript'>
-           $(function() {
-             $.getJSON('https://api.dribbble.com/v1/users/eloisadocton/shots?access_token=37915342a2b7f56b921a6d44bfebd6fdb3f595be349892384bd782c2983db370&callback=?', function(resp) {
-               if (resp.data.length > 0) {
-                 $.each(resp.data.reverse(), function(i, val) {
-                   $('#dribbble').prepend(
-                     '<div class="box"><a href="'+val.html_url+'" target="_blank"><img src="'+val.images.normal+'" /></a></div>'
-                   );
-                 });
-               }
-               else {
-                 $('#dribbble').append('<div>No shots.</div>');
-               }
-             });
-           });
-          </script>
-<div id="dribbble"></div>
-<!-- END OF DRIBBLE API -->
-</div>
-
-
+</div> -->
 <div id="#containerC"class="flex-container-index-4">
   <div class="otherstitle">
         <h2 style="color: white;">WHAT OTHERS SAY ABOUT ME</h2>
@@ -258,6 +232,33 @@ When I moved onto web design, the same fundamentals worked best, research, creat
                     </div>
 
     </div>
+    
+<div id="containerB" class="flex-container-index-3">
+    <h2>LATEST UPLOADS</h2>
+
+<!-- DRIBBLE API -->
+          <script type='text/javascript'>
+           $(function() {
+             $.getJSON('https://api.dribbble.com/v1/users/eloisadocton/shots?access_token=37915342a2b7f56b921a6d44bfebd6fdb3f595be349892384bd782c2983db370&callback=?', function(resp) {
+               if (resp.data.length > 0) {
+                 $.each(resp.data.reverse(), function(i, val) {
+                   $('#dribbble').prepend(
+                     '<div class="box"><a href="'+val.html_url+'" target="_blank"><img src="'+val.images.normal+'" /></a></div>'
+                   );
+                 });
+               }
+               else {
+                 $('#dribbble').append('<div>No shots.</div>');
+               }
+             });
+           });
+          </script>
+<div id="dribbble"></div>
+<!-- END OF DRIBBLE API -->
+</div>
+
+
+
 </div>
 
 <div class="mobile-menu">
