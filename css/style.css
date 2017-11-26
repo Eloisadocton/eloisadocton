@@ -25,11 +25,12 @@
 }
 
 .portfolio-button {
-  border: 1px solid black;
+  border: 1px solid #d73149;
   padding: 1% 2%;
+  color: #d73149;
 }
 .portfolio-button:hover {
-  background-color: black;
+  background-color: #d73149;
   transition: 1s;
   color: white;
 }
@@ -78,16 +79,16 @@
       h1.scrolling {
         color: white;
       }
-      h1.scrolling2 {
+      /*h1.scrolling2 {
         color: black;
       }
       h1.scrolling3 {
         color: white;
-      }
+      }*/
       h1:hover.scrolling {
         color: #ffe2e6;
       }
-      h1:hover.scrolling2 {
+      /*h1:hover.scrolling2 {
         color: white;
       }
       h1:hover.scrolling2 {
@@ -95,7 +96,7 @@
       }
       h1:hover.scrolling3 {
         color: black;
-      }
+      }*/
       h1.title1-illustrations:hover {
         color:#ff71a1;
       }
@@ -106,7 +107,7 @@
         color:#ff71a1;
       }
       h1.title1-divi.scrolling {
-        color:#77d8e6;
+        color:#ffffff;
       }
       h1.title1-video:hover {
         color:#ff71a1;
@@ -115,7 +116,7 @@
         color:#ffffff;
       }
       h1.title1-video {
-        color:#69c0cc;
+        color:#172d3a;
       }
       h2 {
         font-size: 1.3vw;
@@ -168,12 +169,12 @@
       h3.scrolling {
             color: white;
         }
-      h3.scrolling2 {
+      /*h3.scrolling2 {
         color: black;
       }
       h3.scrolling3 {
         color: white;
-      }
+      }*/
       h3.illustrations-designer.scrolling {
         color: #ebe800;
         -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
@@ -420,17 +421,20 @@
         background-color: white;
       }
       nav.scrolling {
-        background-color: #414452;
+        background-color: #e5bfdb;
+      }
+      nav.illustrations.scrolling {
+        background-color: #172d3a;
       }
       nav.reel.scrolling {
         background: rgba(255, 255, 255, 0.1);
         }
-      nav.scrolling2 {
-        background-color: #ffd8e6;
+      /*nav.scrolling2 {
+        background-color: #e5bfdb;
       }
       nav.scrolling3 {
         background-color: #C73B6F;
-      }
+      }*/
       .navigation-desktop {
         display: inline-table;
         width: 100%;
@@ -465,12 +469,12 @@
       li a.scrolling {
         color: white;
       }
-      li a.scrolling2 {
+      /*li a.scrolling2 {
         color: black;
       }
       li a.scrolling3 {
         color: white;
-      }
+      }*/
       li a.divi.scrolling {
         color: white;
       }
@@ -537,7 +541,7 @@
         color: #c2f3e0;
       }
       li a.divi-li-resume.scrolling {
-        color: #c2f3e0;
+        color: #ffffff;
       }
       li a.illustrations-li-connect.scrolling {
         color: #c2f3e0;
@@ -730,6 +734,9 @@
         .dribbbletitleA a{
           letter-spacing: .4em;
           color: #C73B6F;
+        }
+        .dribbble-title img {
+          width: 20%;
         }
       .index-intro-3 {
         text-align: center;
