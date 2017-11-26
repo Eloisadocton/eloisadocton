@@ -838,11 +838,37 @@ transform: skew(0deg, 5deg);*/
       .info img {
         width: 100%;
       }
+      .hello  {
+        width: 100%;
+      }
+      .hello img {
+        width: 20%;
+      }
       .signature-mobile {
         display: none;
       }
       .signature {
         display: block;
+      }
+      .goals-title img {
+        width: 100%;
+      }
+     .goals-title {
+       width: 45%;
+     }
+      .about-flex-titles {
+        width: 100%;
+        margin: 0;
+      }
+      .about-flex-titles img {
+        width: 30%;
+      }
+      .about-flex-titles-skills {
+        width: 100%;
+        margin: 0;
+      }
+      .about-flex-titles-skills img {
+        width: 17%;
       }
       .info-container {
         margin-top: 4%;
@@ -875,6 +901,93 @@ transform: skew(0deg, 5deg);*/
         width:100%;
         height:100%;
       }
+      .mobile-info-photo {
+        display: none;
+      }
+      .inner-info {
+        padding: 2%;
+      }
+      .goals {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+      }
+      .goals-inner-left {
+        width: 55%;
+        padding-right: 5%;
+        padding-left: 0;
+      }
+      .goals-inner-right {
+        width: 40%;
+      }
+      .skills {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+      }
+      .skills-inner {
+        padding-right: 5%;
+        padding-left: 0;
+        width: 20%;
+      }
+      .skills img {
+        /*width: 70%;*/
+      }
+      /*.skills-top img {
+        width: 12%;
+      }*/
+      .rec {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+      }
+      .rec-left-lavender {
+        width: 30%;
+        padding: 5%;
+        background-color: #e5bfdb;
+      }
+      .rec-right-blue {
+        width: 30%;
+        padding: 5%;
+        background-color: #b7e5e2;
+      }
+      .rec-left-pink {
+        width: 30%;
+        padding: 5%;
+        background-color: #d73149;
+      }
+      .rec-right-yellow {
+        width: 30%;
+        padding: 5%;
+        background-color: #f8d547;
+      }
+      .rec-left-peachy {
+        width: 30%;
+        padding: 5%;
+        background-color: #fcd1bb;
+      }
+      .rec-right-green {
+        width: 30%;
+        padding: 5%;
+        background-color: #96e2d3;
+      }
+      .rec-box img{
+        width: 30vw;
+        margin-bottom: 1%;
+      }
+      .rec-box {
+        width: 100%;
+      }
+
 
 /*RESUME PAGE*/
       .resume {
@@ -1757,13 +1870,59 @@ margin-left: 0;
         }
 
         /*ABOUT ME PAGE*/
-
+        .rec-left-lavender {
+          width: 100%;
+        }
+        .rec-right-blue {
+          width: 100%;
+        }
+        .rec-left-pink {
+          width: 100%;
+        }
+        .rec-right-yellow {
+          width: 100%;
+        }
+        .rec-left-peachy {
+          width: 100%;
+        }
+        .rec-right-green {
+          width: 100%;
+        }
+        .info img {
+          width: 40%;
+        }
+        .about-flex-titles-skills img {
+          width: 30%;
+        }
+        .goals-title img {
+          width: 45%;
+        }
+       .goals-title {
+         width: 45%;
+       }
+        .skills {
+          width: 100%;
+        }
+        .skills-inner {
+          margin-top: 5%;
+          width: 25%;
+        }
+        .skills img {
+          width: 100%;
+        }
         .signature {
           display: none;
         }
         .signature-mobile {
           display: block;
           width: 100%;
+          }
+          .mobile-info-photo {
+            display: block;
+            width: 100%;
+          }
+          .mobile-info-photo img {
+            width: 100%;
           }
         .info-container {
           margin-top: 0%;
@@ -1781,6 +1940,29 @@ margin-left: 0;
         h4.aboutMe {
           text-align: justify;
           font-size: 4vw;
+        }
+        .goals {
+          display: block;
+          width: 100%;
+          margin: 0;
+        }
+        .goals-inner-left {
+          width: 100%;
+        }
+        .goals-inner-left img{
+          width: 100%;
+        }
+        .goals-inner-right {
+          width: 100%;
+        }
+        .goals-inner-right img{
+          width: 100%;
+        }
+        .about-flex-titles {
+          width: 100%;
+        }
+        .about-flex-titles img {
+          width: 30%;
         }
         .wrapper {
           width:80%;
