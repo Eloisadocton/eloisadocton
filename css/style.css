@@ -1403,7 +1403,9 @@ margin-left: 0;
         width: 100%;
         height: 100%;
       }
-
+      .mobile-about-illustrations {
+        display: none;
+      }
       .illustrations-icon {
 
       }
@@ -1843,6 +1845,12 @@ margin-left: 0;
         .mobile-menu-bikemd {
           display: block;
           margin-top: 0;
+        }
+        .mobile-about-illustrations {
+          display: block;
+        }
+        .mobile-about-illustrations img{
+          width: 100%;
         }
         .mobile-about {
           padding: 5%;
