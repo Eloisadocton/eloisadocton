@@ -189,25 +189,50 @@
           <div class="dribbble-title">
         <center><img src="./images/dribbbles.png"/></center>
       </div>
-    <div id="dribbble">
 
+
+    <div id="dribbble">
+<div id="shots">
     <!-- DRIBBLE API -->
               <script type='text/javascript'>
-               $(function() {
-                 $.getJSON('https://api.dribbble.com/v1/users/eloisadocton/shots?access_token=37915342a2b7f56b921a6d44bfebd6fdb3f595be349892384bd782c2983db370&callback=?', function(resp) {
-                   if (resp.data.length > 0) {
-                     $.each(resp.data.reverse(), function(i, val) {
-                       $('#dribbble').prepend(
-                         '<div class="box"><a href="'+val.html_url+'" target="_blank"><img src="'+val.images.normal+'" /></a></div>'
-                       );
-                     });
-                   }
-                   else {
-                     $('#dribbble').append('<div>No shots.</div>');
-                   }
-                 });
-               });
+
+              // Set the Access Token
+var accessToken = '4496ea1a8c02d1e5ecff95d72975ff08c2713b66953897596b42d1b8f1ac3022';
+
+// Call Dribble v2 API
+$.ajax({
+    url: 'https://api.dribbble.com/v2/user/shots?access_token='+accessToken,
+    dataType: 'json',
+    type: 'GET',
+    success: function(data) {
+      if (data.length > 0) {
+        $.each(data.reverse(), function(i, val) {
+          $('#dribbble').prepend(
+             '<div class="box"><a href="'+val.html_url+'" target="_blank"><img src="'+val.images.normal+'" /></a></div>'
+            )
+        })
+      }
+      else {
+        $('#dribbble').append('<p>No shots yet!</p>');
+      }
+    }
+});
+               // $(function() {
+               //   $.getJSON('https://api.dribbble.com/v2/users/eloisadocton/shots?access_token=db907caf31a14e58f53722bb18d101c9d5a0a9bd817bb01c1c2435c3b6d9c3ce&callback=?', function(resp) {
+               //     if (resp.data.length > 0) {
+               //       $.each(resp.data.reverse(), function(i, val) {
+               //         $('#dribbble').prepend(
+               //           '<div class="box"><a href="'+val.html_url+'" target="_blank"><img src="'+val.images.normal+'" /></a></div>'
+               //         );
+               //       });
+               //     }
+               //     else {
+               //       $('#dribbble').append('<div>No shots.</div>');
+               //     }
+               //   });
+               // });
               </script>
+            </div>
     <div id="dribbble"></div>
     <!-- END OF DRIBBLE API -->
     </div>
