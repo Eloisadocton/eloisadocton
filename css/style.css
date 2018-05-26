@@ -2362,3 +2362,6 @@ margin-left: 0;
 
 
       }
+      ::selection {
+          background-color: #e5bfdb;
+      }
