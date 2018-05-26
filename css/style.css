@@ -491,14 +491,41 @@
         background-color: #C73B6F;
 }
       }
+
+      li a.illustrations-li-reel:hover {
+        color: white;
+        background-color: #ff71a1;
+        transition: .7s;
+      }
+
+      li a.illustrations-li-reel.scrolling {
+        color: #c2f3e0;
+        /* background-color: #fb95c4; */
+      }
+
+      li a.illustrations-li-reel:hover.scrolling {
+        color: #c2f3e0;
+       background-color: #fb95c4;
+       transition: .7s;
+
+      }
+
+
       li a.illustrations-li-about:hover {
         color: white;
         background-color: #ff71a1;
         transition: .7s;
       }
 
+      li a.illustrations-li-about.scrolling {
+        color: #c2f3e0;
+        /* background-color: #ff71a1; */
+      }
+
       li a.illustrations-li-about:hover.scrolling {
         color: white;
+        background-color: #e5bfdb;
+        transition: .7s;
       }
       li a.illustrations-li-connect:hover.scrolling {
         color: white;
