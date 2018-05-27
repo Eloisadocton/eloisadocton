@@ -494,7 +494,13 @@
 
       li a.illustrations-li-reel:hover {
         color: white;
-        background-color: #ff71a1;
+        background-color: #fb95c4;
+        transition: .7s;
+      }
+
+      .illustrations-li-reel:hover {
+        color: white;
+        background-color: #fb95c4;
         transition: .7s;
       }
 
@@ -507,7 +513,6 @@
         color: #c2f3e0;
        background-color: #fb95c4;
        transition: .7s;
-
       }
 
 
@@ -1695,6 +1700,25 @@ margin-left: 0;
       .blogbutton h1{
         font-size: .75vw;
       }
+
+      /* WEAVEUP PAGE*/
+            .wuphero img {
+              display: block;
+              margin: 0 auto;
+              width: 40%;
+              padding: 4%;
+            }
+            .wup-hero {
+              height: 35em;
+              overflow: hidden;
+              background-image: url("/images/2018_WeaveUpPage_background.jpg");
+              background-attachment: fixed;
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position-x: 0;
+              /*background-position-y: -300px;*/
+            }
+
 
 /* SPOONFLOWER PAGE*/
       .sfhero img {
