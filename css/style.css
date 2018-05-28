@@ -118,6 +118,22 @@
       h1.title1-video {
         color:#172d3a;
       }
+      h1.wup-textinfo {
+        color: white;
+      }
+      p.wup-p {
+        color: white;
+
+      }
+      h1.wup-textinfo.scrolling-wup {
+        color:#00c7fa;
+        transition: .7s;
+      }
+      p.wup-p.scrolling-wup {
+        color:black;
+        transition: .7s;
+      }
+
       h2 {
         font-size: 1.3vw;
         letter-spacing: .2vw;
@@ -428,6 +444,9 @@
       }
       nav.reel.scrolling {
         background: rgba(255, 255, 255, 0.1);
+        }
+        nav.wup.scrolling {
+          background-color: #00c7fa;
         }
       /*nav.scrolling2 {
         background-color: #e5bfdb;
@@ -1705,20 +1724,67 @@ margin-left: 0;
             .wuphero img {
               display: block;
               margin: 0 auto;
-              width: 40%;
+              /* width: 40%; */
               padding: 4%;
             }
             .wup-hero {
-              height: 35em;
+              height: 42em;
               overflow: hidden;
-              background-image: url("/images/2018_WeaveUpPage_background.jpg");
+              background-image: url("http://www.eloisadocton.com/images/2018_WeaveUpPage_background.jpg");
               background-attachment: fixed;
               background-repeat: no-repeat;
-              background-size: cover;
+              background-size: 100%;
               background-position-x: 0;
-              /*background-position-y: -300px;*/
+              background-position-y: -400px;
             }
-
+            .flex-container-wup{
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              justify-content: center;
+              position: relative;
+              margin-left: auto;
+              margin-right: auto;
+              width: 100%;
+              padding-top: .5vw;
+            }
+            .thumb-image-wup-info {
+              background-color: #ffffff;
+              /*padding: 6%;*/
+              /* margin-top: 1vw; */
+              padding: 0%;
+              flex: 1;
+              width: 20%;
+              overflow: hidden;
+            }
+            .thumb-image-wup-info img {
+              width: 100%;
+              /* margin-bottom: 4vw; */
+              opacity: 1;
+              -webkit-transition: .3s ease-in-out;
+              transition: .3s ease-in-out;
+            }
+              .thumb-image-wup-info:hover img {
+              opacity: .5;
+              }
+              .wup-text {
+                padding-top: 20%;
+                padding-left: 10%;
+                width: 80%;
+              }
+              .flex-container-wup-mobile {
+                display: none;
+              }
+              .articles-button {
+                border: 1px solid #d73149;
+                padding: 2% 2%;
+                color: #d73149;
+              }
+              .articles-button:hover {
+                background-color: #d73149;
+                transition: 1s;
+                color: white;
+              }
 
 /* SPOONFLOWER PAGE*/
       .sfhero img {
@@ -1799,6 +1865,110 @@ margin-left: 0;
 }
 
 /*MEDIA QUERIES START HERE*/
+/*1200px SCREEN OR LARGER WUP PAGE*/
+@media screen and (min-width: 1200px)
+and (max-device-width: 1400px)
+      {
+        .wuphero img {
+          display: block;
+          margin: 0 auto;
+          /* width: 40%; */
+          padding: 4%;
+        }
+        .wup-hero {
+          height: 30em;
+          overflow: hidden;
+          background-image: url("http://www.eloisadocton.com/images/2018_WeaveUpPage_background.jpg");
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-position-x: 0;
+          background-position-y: -300px;
+        }
+}
+/*1200px SCREEN OR LARGER WUP PAGE*/
+@media screen and (min-width: 1401px)
+and (max-device-width: 1600px)
+      {
+        .wuphero img {
+          display: block;
+          margin: 0 auto;
+          /* width: 40%; */
+          padding: 4%;
+        }
+        .wup-hero {
+          height: 35em;
+          overflow: hidden;
+          background-image: url("http://www.eloisadocton.com/images/2018_WeaveUpPage_background.jpg");
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-position-x: 0;
+          background-position-y: -400px;
+        }
+}
+/*1600px SCREEN OR LARGER WUP PAGE*/
+@media screen and (min-width: 1601px)
+and (max-device-width: 1999px)
+      {
+        .wuphero img {
+          display: block;
+          margin: 0 auto;
+          /* width: 40%; */
+          padding: 4%;
+        }
+        .wup-hero {
+          height: 35em;
+          overflow: hidden;
+          background-image: url("http://www.eloisadocton.com/images/2018_WeaveUpPage_background.jpg");
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-position-x: 0;
+          background-position-y: -600px;
+        }
+}
+/*2500px SCREEN OR LARGER WUP PAGE*/
+@media screen and (min-width: 2000px)
+and (max-device-width: 2500px)
+      {
+        .wuphero img {
+          display: block;
+          margin: 0 auto;
+          /* width: 40%; */
+          padding: 4%;
+        }
+        .wup-hero {
+          height: 60em;
+          overflow: hidden;
+          background-image: url("http://www.eloisadocton.com/images/2018_WeaveUpPage_background.jpg");
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-position-x: 0;
+          background-position-y: -500px;
+        }
+}
+/*3500px SCREEN OR LARGER WUP PAGE*/
+@media screen and (min-width: 3000px)
+and (max-device-width: 3500px)
+      {
+        .wuphero img {
+          display: block;
+          margin: 0 auto;
+          padding: 4%;
+        }
+        .wup-hero {
+          height: 80em;
+          overflow: hidden;
+          background-image: url("http://www.eloisadocton.com/images/2018_WeaveUpPage_background.jpg");
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-position-x: 0;
+          background-position-y: -700px;
+        }
+}
 /*IPHONES 5 THROUGH IPAD MINI*/
 @media screen and (min-width: 300px)
   and (max-device-width: 1023px)
@@ -2410,7 +2580,47 @@ margin-left: 0;
         background-color: #181822;
         height: 350px;
         }
-
+        .wuphero img {
+          margin: 0 auto;
+          padding: 4%;
+        }
+        .wup-hero {
+          height: 30em;
+          background-image: url("http://www.eloisadocton.com/images/2018_WeaveUpPage_background.jpg");
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-position-x: 0;
+          background-position-y: 0;
+        }
+        .flex-container-wup{
+          display: none;
+        }
+        .flex-container-wup-mobile {
+          display: block;
+        }
+        .flex-container-wup-mobile img{
+          width: 100%;
+        }
+        .thumb-image-wup-info {
+          background-color: #ffffff;
+          /*padding: 6%;*/
+          /* margin-top: 1vw; */
+          padding: 0%;
+          flex: 1;
+          width: 100%;
+          overflow: hidden;
+        }
+        .thumb-image-wup-info img {
+          width: 100%;
+          /* margin-bottom: 4vw; */
+          opacity: 1;
+          -webkit-transition: .3s ease-in-out;
+          transition: .3s ease-in-out;
+        }
+          .thumb-image-wup-info:hover img {
+          opacity: .5;
+          }
 
       }
       ::selection {
