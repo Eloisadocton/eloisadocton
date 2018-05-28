@@ -323,7 +323,7 @@
 
 /*NAVIGATION*/
       .logoleftnav {
-        width: 40%;
+        width: 30%;
         clear: both;
         float: left;
         padding: 1.2vw 4vw;
@@ -464,7 +464,7 @@
         margin: 0;
         padding: 1vw 5vw;
         overflow: hidden;
-        width: 40%;
+        width: 50%;
         float: right;
       }
       li {
