@@ -2,13 +2,13 @@
 #container
 {
   background: fixed;
-  height: 40vw;
+  height: 35vw;
   width: 100%;
   background-repeat: no-repeat;
   background-size: 35vw;
   background-image: url(http://eloisadocton.com/images/DesignIndexsm.jpg);
-  background-position-x: 45vw;
-  background-position-y: 10vw;
+  background-position-x: 47vw;
+  background-position-y: 18vw;
 }
 
 #child
@@ -38,12 +38,7 @@
   margin-top: 3%;
 }
 
-
-
 /*BODY*/
-      body{
-      }
-
 /*FONTS AND TYPE STYLE*/
       @font-face {
         font-family: 'MyWebFont';
@@ -79,24 +74,10 @@
       h1.scrolling {
         color: white;
       }
-      /*h1.scrolling2 {
-        color: black;
-      }
-      h1.scrolling3 {
-        color: white;
-      }*/
+
       h1:hover.scrolling {
         color: #ffe2e6;
       }
-      /*h1:hover.scrolling2 {
-        color: white;
-      }
-      h1:hover.scrolling2 {
-        color: white;
-      }
-      h1:hover.scrolling3 {
-        color: black;
-      }*/
       h1.title1-illustrations:hover {
         color:#ff71a1;
       }
@@ -157,7 +138,7 @@
       }
       h3.illustrations-designer {
         margin: 0;
-        -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+        -webkit-animation: fadein 6s; /* Safari, Chrome and Opera 12.1 */
         -moz-animation: fadein 6s; /* Firefox < 16 */
         -ms-animation: fadein 6s; /* Internet Explorer */
         -o-animation: fadein 6s; /* Opera < 12.1 */
@@ -222,6 +203,7 @@
         font-size: 1vw;
         line-height: 1.5;
         font-weight: 200;
+        color: #767676;
       }
       h5 {
         font-size: 1vw;
@@ -240,11 +222,11 @@
         text-align: left;
       }
       h5.scrolling {
-        font-family: 'LemonMilk', Fallback, sans-serif;
+        font-family: 'LemonMilk', Fallback, serif;
 
       }
       h6 {
-        font-family: 'LemonMilk', Fallback, sans-serif;
+        font-family: 'LemonMilk', Fallback, serif;
         color: white;
         font-size: 3vw;
         text-align:center;
@@ -305,21 +287,11 @@
         }
 
 /*INDEX STUFF*/
-      video.fillWidth {
-        width: 100%;
-        /*height: 80vh;*/
-        position: fixed;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        z-index: -100;
-      }
+
       .landingpage-flex-container {
         padding-top: 200px;
         padding-bottom: 150px;
       }
-
 
 /*NAVIGATION*/
       .logoleftnav {
@@ -448,12 +420,7 @@
         nav.wup.scrolling {
           background-color: #00c7fa;
         }
-      /*nav.scrolling2 {
-        background-color: #e5bfdb;
-      }
-      nav.scrolling3 {
-        background-color: #C73B6F;
-      }*/
+
       .navigation-desktop {
         display: inline-table;
         width: 100%;
@@ -488,12 +455,7 @@
       li a.scrolling {
         color: white;
       }
-      /*li a.scrolling2 {
-        color: black;
-      }
-      li a.scrolling3 {
-        color: white;
-      }*/
+
       li a.divi.scrolling {
         color: white;
       }
@@ -508,15 +470,12 @@
       li a:hover.scrolling3 {
         border-bottom: solid 2px white;
         background-color: #C73B6F;
-}
       }
-
       li a.illustrations-li-reel:hover {
         color: white;
         background-color: #fb95c4;
         transition: .7s;
       }
-
       .illustrations-li-reel:hover {
         color: white;
         background-color: #fb95c4;
@@ -533,7 +492,6 @@
        background-color: #fb95c4;
        transition: .7s;
       }
-
 
       li a.illustrations-li-about:hover {
         color: white;
@@ -676,6 +634,7 @@
       #containerC {
         display: none;
       }
+
       .flex-container-index{
         display: flex;
         flex-direction: row;
@@ -710,9 +669,10 @@
         margin-left: 80%;
       }
       .index-image {
-        width: 50%;
+        /* width: 50%;
         margin: 2px;
-        margin-left: -7%;
+        margin-left: -7%; */
+        display: none;
       }
       .index-image img {
         width: 100%;
@@ -762,17 +722,17 @@
         text-align: center;
       }
       #dribbble{
-        /* padding: 6%; */
+        /* padding: 2%; */
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         position: relative;
-        overflow: hide;
+        overflow: hidden;
         background-color: white;
       }
         #dribbble img {
-          width: 40vh;
+          width: auto;
         }
         .dribbbletitle {
           background-color: white;
@@ -796,25 +756,24 @@
         margin-top: 1%;
       }
       .flex-container-index-4{
+        /* padding: 4%; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        background-color: #f9d1bb;
+        /* width: 92%; */
+
+      }
+      .flex-container-index-5 {
         padding: 4%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         position: relative;
-        background-color: #fbfbfb;
-            /*transform: rotate(-2deg);*/
-        /*transform: rotate(30deg) skew(30deg);*/
-        /*-webkit-transform: skew(0deg, 5deg);
-transform: skew(0deg, 5deg);*/
-      }
-
-      .tilt {
-
-        /*-webkit-transform: skew(0deg, -5deg);
- transform: skew(0deg, -5deg);
- padding: 200px 0;
- margin-top: -190px;*/
+        background-color: #ffffff;
       }
       .index-recommendations {
         padding: 1%;
@@ -833,16 +792,127 @@ transform: skew(0deg, 5deg);*/
         justify-content: center;
         position: relative;
         width: auto;
-        height: auto;s
+        height: auto;
       }
       h4.others {
         color: white;
         font-size: 1vw;
       }
 
+    .index-skills-inner img{
+      width: 90%;
+    }
+    .index-skills-inner {
+      padding-right: 2.5%;
+      padding-left: 2.5%;
+      width: 20%;
+    }
+    .skills-index {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      position: relative;
+      width: 100%;
+    }
+    .index-skills-background {
+      background-color: #fff;
+      width: 100%;
+    }
+    .index {
+      background-color: #fcfcfc;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      position: relative;
+      /* padding: 2%; */
+    }
+
+    .index.scrolling {
+      background-color: #ffffff;
+      transition: .5s;
+    }
+    .bird {
+      opacity: 0;
+      width: 85%;
+      background-color: #fcfcfc;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      position: relative;
+    }
+    .bird video {
+      width: 50%;
+    }
+    .bird.scrolling {
+      opacity: 100;
+      transition: 1s;
+    }
+    .colorstripe {
+      width: 15%;
+      background-color: #f4d257;
+    }
+    .dogs {
+      opacity: 0;
+      width: 100%;
+      background-color: #ffffff;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      position: relative;
+    }
+    .dogs.scrolling {
+      opacity: 100;
+      transition: 1s;
+    }
+
+    .dogs img {
+      height: auto;
+      width: 90%;
+    }
+    .dogs-right {
+      width: 45%;
+      margin-top: 5%;
+    }
+    .index2 {
+      background-color: #fff;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      position: relative;
+      padding-top: 5%;
+      padding-left: 9%;
+      padding-bottom: 5%;
+    }
+    .whatIdo2 {
+      background-color: #fff;
+      width: 40%;
+      padding-top: 5%;
+    }
+
+    .whatIdo {
+      background-color: #fcfcfc;
+      width: 40%;
+      padding: 2%;
+      padding-top: 10%;
+    }
+
+
 /*INDEX PAGE INFO CONTAINER*/
       footer {
-        position: fixed;
+        position: relative;
         right: 0;
         bottom: 0;
         left: 0;
@@ -856,7 +926,7 @@ transform: skew(0deg, 5deg);*/
       footer a {
         font-size: 22px;
         color: #cccccc;
-        margin-right: 0%;
+        margin-right: 0;
       }
       .left-footer {
       float: left;
@@ -994,12 +1064,6 @@ transform: skew(0deg, 5deg);*/
         padding-left: 0;
         width: 20%;
       }
-      .skills img {
-        /*width: 70%;*/
-      }
-      /*.skills-top img {
-        width: 12%;
-      }*/
       .rec {
         display: flex;
         flex-direction: row;
@@ -1127,13 +1191,13 @@ transform: skew(0deg, 5deg);*/
         background-image: url("http://eloisadocton.com/images/BranchlessBackground-01.png");
         background-size: 100%;
         background-repeat: no-repeat;
-height: 100%
--webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
--moz-animation: fadein 6s; /* Firefox < 16 */
--ms-animation: fadein 6s; /* Internet Explorer */
--o-animation: fadein 6s; /* Opera < 12.1 */
-animation: fadein 6s;
-margin-left: 0;
+        height: 100%;
+        -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 6s; /* Firefox < 16 */
+        -ms-animation: fadein 6s; /* Internet Explorer */
+        -o-animation: fadein 6s; /* Opera < 12.1 */
+        animation: fadein 6s;
+        margin-left: 0;
       }
 
       .project-preview-image {
@@ -1177,7 +1241,7 @@ margin-left: 0;
         height: 100%;
       }
       .branchless-sketches {
-        padding: 0% 5%;
+        padding: 0 5%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1194,7 +1258,8 @@ margin-left: 0;
         background-image: url("/images/BranchlessBackground.png");
         background-size: 100%;
         background-repeat: no-repeat;
-        height: 100%      }
+        height: 100%;
+      }
       .project-web-preview-image {
         clear: both;
         float: left;
@@ -1209,7 +1274,7 @@ margin-left: 0;
         border-bottom: 1px #ceeef4 solid;
       }
       .inner-flex-container-branchless {
-        padding: 0% 5%;
+        padding: 0 5%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1323,10 +1388,10 @@ margin-left: 0;
       }
       h1.title-video {
         font-size: 4vw;
-        font-family: 'LemonMilk', Fallback, sans-serif;
+        font-family: 'LemonMilk', Fallback, serif;
       }
       .flex-container-promos{
-        padding: 0% 5%;
+        padding: 0 5%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1406,7 +1471,6 @@ margin-left: 0;
        }
 
        .flex-container-diviresorts{
-         /*padding: 0% 10%;*/
          display: flex;
          flex-direction: row;
          flex-wrap: wrap;
@@ -1417,10 +1481,7 @@ margin-left: 0;
          /*max-width: 1080px;*/
          width: 83.33333%;
        }
-       audio, video {
-    display: inline-block;
-    width: 22vw;
-}
+
        .thumb-image-diviresorts-info {
          background-color: #ffffff;
          /*padding: 6%;*/
@@ -1444,7 +1505,7 @@ margin-left: 0;
          margin: 4%;
        }
        .thumb-image1 img {
-         max-height: width: 70%;
+         width: 70%;
          margin: 0 auto;
        }
 
@@ -1457,9 +1518,7 @@ margin-left: 0;
       .mobile-about-illustrations {
         display: none;
       }
-      .illustrations-icon {
 
-      }
       .illustrations-hero {
          height: 30vw;
          overflow: hidden;
@@ -1471,7 +1530,7 @@ margin-left: 0;
          /*background-position-y: -300px;*/
        }
       .flex-container-illustrations{
-        padding: 0% 10%;
+        padding: 0 10%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1483,7 +1542,7 @@ margin-left: 0;
         width: 83.33333%;
       }
       .illustrations-flex-container {
-        padding: 0% 5%;
+        padding: 0 5%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1492,8 +1551,6 @@ margin-left: 0;
         margin-left: auto;
         margin-right: auto;
         width: 83.33333%;
-      }
-      .thumb-image-illustrations-info img{
       }
       .flex-container {
         margin-top: 1%;
@@ -1511,7 +1568,7 @@ margin-left: 0;
         margin: 4%;
       }
       .sketches {
-        padding: 0% 5%;
+        padding: 0 5%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1640,8 +1697,11 @@ margin-left: 0;
 
 /*BIKE MD PAGE*/
       .desktop-bikemd {
-        margin-top: 35%;
         background-color: white;
+        width: 100%;
+      }
+      .desktop-bikemd video{
+        width: 100%;
       }
       h1.bikemd-title {
         color: black;
@@ -1677,7 +1737,7 @@ margin-left: 0;
          /*background-position-y: -300px;*/
        }
       .flex-container-goodreads{
-        padding: 0% 5%;
+        padding: 0 5%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1750,9 +1810,7 @@ margin-left: 0;
             }
             .thumb-image-wup-info {
               background-color: #ffffff;
-              /*padding: 6%;*/
-              /* margin-top: 1vw; */
-              padding: 0%;
+              padding: 0;
               flex: 1;
               width: 20%;
               overflow: hidden;
@@ -1863,766 +1921,249 @@ margin-left: 0;
   width:100%;
   position:absolute;
 }
+.dogs-right-mobile {
+  display: none;
+}
+
 
 /*MEDIA QUERIES START HERE*/
-/*1200px SCREEN OR LARGER WUP PAGE*/
-@media screen and (min-width: 1200px)
-and (max-device-width: 1400px)
-      {
-        .wuphero img {
-          display: block;
-          margin: 0 auto;
-          /* width: 40%; */
-          padding: 4%;
-        }
-        .wup-hero {
-          height: 30em;
-          overflow: hidden;
-          background-image: url("http://www.eloisadocton.com/images/2018_WeaveUpPage_background.jpg");
-          background-attachment: fixed;
-          background-repeat: no-repeat;
-          background-size: 100%;
-          background-position-x: 0;
-          background-position-y: -300px;
-        }
-}
-/*1200px SCREEN OR LARGER WUP PAGE*/
-@media screen and (min-width: 1401px)
-and (max-device-width: 1600px)
-      {
-        .wuphero img {
-          display: block;
-          margin: 0 auto;
-          /* width: 40%; */
-          padding: 4%;
-        }
-        .wup-hero {
-          height: 35em;
-          overflow: hidden;
-          background-image: url("http://www.eloisadocton.com/images/2018_WeaveUpPage_background.jpg");
-          background-attachment: fixed;
-          background-repeat: no-repeat;
-          background-size: 100%;
-          background-position-x: 0;
-          background-position-y: -400px;
-        }
-}
-/*1600px SCREEN OR LARGER WUP PAGE*/
-@media screen and (min-width: 1601px)
-and (max-device-width: 1999px)
-      {
-        .wuphero img {
-          display: block;
-          margin: 0 auto;
-          /* width: 40%; */
-          padding: 4%;
-        }
-        .wup-hero {
-          height: 35em;
-          overflow: hidden;
-          background-image: url("http://www.eloisadocton.com/images/2018_WeaveUpPage_background.jpg");
-          background-attachment: fixed;
-          background-repeat: no-repeat;
-          background-size: 100%;
-          background-position-x: 0;
-          background-position-y: -600px;
-        }
-}
-/*2500px SCREEN OR LARGER WUP PAGE*/
-@media screen and (min-width: 2000px)
-and (max-device-width: 2500px)
-      {
-        .wuphero img {
-          display: block;
-          margin: 0 auto;
-          /* width: 40%; */
-          padding: 4%;
-        }
-        .wup-hero {
-          height: 60em;
-          overflow: hidden;
-          background-image: url("http://www.eloisadocton.com/images/2018_WeaveUpPage_background.jpg");
-          background-attachment: fixed;
-          background-repeat: no-repeat;
-          background-size: 100%;
-          background-position-x: 0;
-          background-position-y: -500px;
-        }
-}
-/*3500px SCREEN OR LARGER WUP PAGE*/
-@media screen and (min-width: 3000px)
-and (max-device-width: 3500px)
-      {
-        .wuphero img {
-          display: block;
-          margin: 0 auto;
-          padding: 4%;
-        }
-        .wup-hero {
-          height: 80em;
-          overflow: hidden;
-          background-image: url("http://www.eloisadocton.com/images/2018_WeaveUpPage_background.jpg");
-          background-attachment: fixed;
-          background-repeat: no-repeat;
-          background-size: 100%;
-          background-position-x: 0;
-          background-position-y: -700px;
-        }
-}
-/*IPHONES 5 THROUGH IPAD MINI*/
-@media screen and (min-width: 300px)
-  and (max-device-width: 1023px)
-      {
-        * {
-          font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-        }
-        nav {
-          display: none;
-        }
-        .mobileNav {
-          background-color: white;
-          width: 100%;
-          padding-top: 6%;
-          padding-bottom: 6%;
-          text-align: center;
-          position: fixed;
-          z-index: 10000000;
-        }
-        .mobileNav.scrolling {
-          background-color: #ffe2e6;
-        }
-        h1.mobile-name {
-          font-size: 7.75vw;
-          color: #333a44;
-          display: inline;
-        }
-        h1:hover {
-          color: #ffe2e6;
-        }
-        h2.mobile-title {
-          color: white;
-          font-size: 4vw;
-          margin: 0;
-        }
-        h3.mobile-h3 {
-          color: black;
-          font-size: 7vw;
-          margin: 0;
-        }
-        h3.mobile-h3:hover {
-          color: white;
-          font-size: 7vw;
-          margin: 0;
-          transition: .5s;
-        }
-        h4 {
-          font-size: 3vw;
-        }
-        h5 {
-          font-size: 4vw;
-          text-align: center;
-        }
-        .illustrator .designer .spacer .drawer{
-          display: none;
-        }
-        ul {
-          display: none;
-        }
-        .mobile-landingpage-flex-container {
-          display: none;
-        }
-        .landingpage-flex-container {
-          display: none;
-        }
-        .flex-container-index {
-          width: 100%;
-          background-color: white;
-          z-index: 1;
-        }
-        .index-image {
-          width: 100%;
-          margin: 0;
-        }
-        .index-image img{
-          width: 100%;
-          margin-top: 20%;
-        }
-        .mobile-index-intro {
-          width: 100% !important;
-          text-align: center;
-          display: block;
-          background-color: #333a44;
-          padding: 4%;
-        }
-        .index-intro {
-          display: none;
-        }
-        .background {
-          display: none;
-        }
-        .mobile-menu {
-          display: block;
-        }
-        .mobile-menu-bikemd {
-          display: block;
-          margin-top: 0;
-        }
-        .mobile-about-illustrations {
-          display: block;
-        }
-        .mobile-about-illustrations img{
-          width: 100%;
-        }
-        .mobile-about {
-          padding: 5%;
-          border-bottom: 2px solid black;
-          border-top: 2px solid black;
-        }
-        .mobile-about img {
-          width: 100%;
-        }
-        .mobile-about:hover {
-        background-color: #333a44;
-        }
-        footer {
-          position: relative;
-        }
-        .left-footer {
-          display: none;
-        }
-        .right-footer {
-          width: 100%;
-          text-align: center;
-          background-color: #333a44;
-          margin: 0;
-        }
-        .fa {
-          font-size: 7.1vw;
-          margin: 3%;
-          color: white;
-        }
-        .fa:hover {
-          color: #ffe2e6;
-        }
-
-        /*ABOUT ME PAGE*/
-        .rec-left-lavender {
-          width: 100%;
-        }
-        .rec-right-blue {
-          width: 100%;
-        }
-        .rec-left-pink {
-          width: 100%;
-        }
-        .rec-right-yellow {
-          width: 100%;
-        }
-        .rec-left-peachy {
-          width: 100%;
-        }
-        .rec-right-green {
-          width: 100%;
-        }
-        .info img {
-          width: 40%;
-        }
-        .about-flex-titles-skills img {
-          width: 30%;
-        }
-        .goals-title img {
-          width: 45%;
-        }
-       .goals-title {
-         width: 45%;
-       }
-        .skills {
-          width: 100%;
-        }
-        .skills-inner {
-          margin-top: 5%;
-          width: 25%;
-        }
-        .skills img {
-          width: 100%;
-        }
-        .signature {
-          display: none;
-        }
-        .signature-mobile {
-          display: block;
-          width: 100%;
-          }
-          .mobile-info-photo {
-            display: block;
-            width: 100%;
-          }
-          .mobile-info-photo img {
-            width: 100%;
-          }
-        .info-container {
-          margin-top: 0%;
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          justify-content: center;
-          position: relative;
-          width: auto;
-          height: auto;
-        }
-        .info {
-          padding-top: 20%;
-        }
-        h4.aboutMe {
-          text-align: justify;
-          font-size: 4vw;
-        }
-        .goals {
-          display: block;
-          width: 100%;
-          margin: 0;
-        }
-        .goals-inner-left {
-          width: 100%;
-        }
-        .goals-inner-left img{
-          width: 100%;
-        }
-        .goals-inner-right {
-          width: 100%;
-        }
-        .goals-inner-right img{
-          width: 100%;
-        }
-        .about-flex-titles {
-          width: 100%;
-        }
-        .about-flex-titles img {
-          width: 30%;
-        }
-        .wrapper {
-          width:80%;
-          height:100%;
-          margin:0 auto;
-          background: white;
-        }
-        .h_iframe {
-          position:relative;
-          padding-top: 56%;
-        }
-        .h_iframe iframe {
-          position:absolute;
-          top:0;
-          left:0;
-          width:100%;
-          height:100%;
-        }
-
-        /*RESUME*/
-        .resume {
-          display: none;
-        }
-        .mobile-resume img{
-          margin-top: 20%;
-          width: 100%;
-        }
-
-        /*PORTFOLIO*/
-        .portfolio-flex-container-top {
-          width: 100%;
-          margin-top: 0;
-          padding: 0;
-        }
-        .portfolio-flex-container {
-          display: block;
-        }
-        .half-portfolio-flex-container {
-          position: relative;
-          width: 50%;
-          overflow-x: hidden;
-          float: left;
-          display: block;
-        }
-        .thumb-image img {
-          width: 100%;
-          opacity: 1;
-          -webkit-transition: .3s ease-in-out;
-          transition: .3s ease-in-out;
-        }
-        .thumb-image a {
-          line-height: 0;
-        }
-        .thumb-image:hover img {
-        opacity: .5;
-        }
-        .portfolio-flex-container-top-mobile {
-          height: 190px;
-          width: 100px;
-          background-color: white;
-          display: inline-block;
-        }
-        .half-portfolio-flex-container {
-          display: block;
-          width: 100%;
-        }
-        /*PROJECT PAGES*/
-        .flex-container-projects {
-          display: none;
-        }
-        .flex-container-projects img {
-          width: 100%;
-        }
-        .mobile-hero {
-          display: block;
-          width: 100%;
-          margin: 0;
-        }
-        .mobile-hero img {
-          min-width: 100%;
-          margin-top: 190px;
-        }
-        .mobile-hero-gif {
-          display: block;
-          width: 100%;
-          margin: 0;
-        }
-        .mobile-hero-gif img {
-          min-width: 100%;
-          margin-top: 0px;
-        }
-        .mobile-info {
-          display: block;
-          padding: 4%;
-          text-align: justify;
-        }
-        .landingpage {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          justify-content: center;
-          position: relative;
-          overflow: scroll;
-          background-color: white;
-          width: 100%;
-        }
-        .landingpage-thumbs {
-          margin-top: 1%;
-          margin-right: 3%;
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          justify-content: center;
-          position: relative;
-          width: 95%;
-          float: right;
-        }
-        .mobile-hero-web {
-          display: block;
-          margin: 6%;
-        }
-        .mobile-hero-web img {
-          width: 100%;
-        }
-        /*VIDEO PAGE*/
-        video.videohero {
-          max-width: 1200px;
-          position: fixed;
-          top: 0;
-          right: 0;
-          bottom: 0;
-          left: 0;
-        }
-        .videohero {
-          max-width: 100%;
-        }
-        .videobox {
-          width: 100%;
-          height: 100%;
-        }
-        .videobox iframe {
-          position: relative;
-          width: 100%;
-          overflow: hidden;
-          float: left;
-          display: block;
-          padding: .5%;
-          height: 350px;
-        }
-        .video-intro {
-          padding: 4%;
-          margin: 4%;
-        }
-        h5.video-title {
-          padding-top: 4%;
-        }
-        video {
-              width: 100%;
-        }
-        /*ILLUSTRATIONS PAGE*/
-        .illustrations-hero {
-          height: 30em;
-          overflow: hidden;
-          background-image: url("http://www.eloisadocton.com/images/Illustrations.jpg");
-          background-attachment: fixed;
-          background-repeat: no-repeat;
-          background-size: auto;
-          background-position-x: 0;
-        }
-        .spacer {
-          height: 80px;
-        }
-        .illustrations-info {
-          margin-top: 2%;
-        }
-        hr {
-          display: none;
-        }
-        .lightbox-gallery {
-            padding-top: 5%;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-          }
-
-          .lightbox-gallery div > img {
-            max-width: 100%;
-            display: block;
-          }
-          .lightbox-gallery div {
-            margin: 10px;
-            flex-basis: 40vw;
-          }
-          .lightbox{
-          	display: none;
-          	width: 100%;
-          	height: 100%;
-          	background-color: rgba(0,0,0,.7);
-          	position: fixed;
-          	top: 0;
-          	left: 0;
-          	z-index: 20;
-          	padding-top: 30vw;
-          	box-sizing: border-box;
-          }
-          .lightbox img{
-          	display: block;
-            margin: auto;
-            width: 90%;
-          }
-        /*GOODREADS PAGE*/
-        .projects-more img{
-          width: 100%;
-          display: block;
-          margin: 0 auto;
-        }
-        .thumb-image-goodreads-wireframes-info-mobile img {
-          width: 100%;
-        }
-        .blogbutton {
-          background-color: #333a44;
-          padding: 6%;
-          width: 70%;
-        }
-        a.blogbutton:hover {
-          color: #74ccd1;
-          padding: 1%;
-          width: 35%;
-        }
-        .blogbutton h1{
-          font-size: 4vw;
-        }
-
-        /*MARLETING AND PROMOS PAGE*/
-        .flex-container-promos{
-          padding: 0% 0%;
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          justify-content: center;
-          position: relative;
-          overflow: scroll;
-          background-color: white;
-        }
-
-        hr.divi-div {
-          display: none;
-        }
-        .thumb-image-divi-wireframes-info {
-          width: 25%;
-          border: #b8e8ef 4px solid;
-          padding: 6%;
-          flex: 1;
-        }
-        .thumb-image-divi-wireframes-info-pink {
-          width: 25%;
-          border: #efa1c7 4px solid;
-          padding: 6%;
-          flex: 1;
-        }
-        .thumb-image-divi-wireframes-info-yellow {
-          width: 25%;
-          border: #efdd33 4px solid;
-          padding: 6%;
-          flex: 1;
-        }
-        .mobile-divi-hero-title {
-          display: block;
-          margin-top: 15%;
-        }
-        h6.divi-mobile {
-          font-size: 4em;
-          vertical-align: middle;
-        }
-
-        .web-hero-title {
-          display: none;
-        }
-        /*BRANCHLESS*/
-        .project-preview-intro-branchless {
-        display: none;
-        }
-        .branchless-sketches img{
-          width: 100%;
-        }
-        .desktop {
-          display: none;
-        }
-       /*BIKE MD*/
-       .desktop-bikemd {
-         display: none;
-       }
-        .bikemd-hero {
-          height: 30em;
-          overflow: hidden;
-          background-image: url("http://www.eloisadocton.com/images/bikeMDheroku.png");
-          background-attachment: fixed;
-          background-repeat: no-repeat;
-          background-size: auto;
-          background-position-x: 0;
-        }
-
-        .bikemd-hero img {
-          width: 100%;
-          display: block;
-          margin: 0 auto;
-        }
-        .bikemd-hero {
-          margin-top: 0;
-          padding-top: 10%;
-        }
-
-        h1.bikemd-title {
-          color: black;
-          font-size: 4vw;
-          margin-top: 1%;
-        }
-        h4.bikemdtitle {
-          text-align: center;
-          font-size: 4em;
-        }
-
-        .bikemd-info {
-            margin-top: 2%;
-            margin-left: 4%;
-            margin-right: 4%;
-          }
-          h2.illustrations-textinfo {
-            text-align: center;
-            font-size: 4em;
-            margin-bottom: 10px;
-            margin-top: 40px;
-          }
-          h4.illustrations-textinfo {
-            text-align: center;
-            font-size: 3em;
-            margin: 10px;
-          }
-          p.illustrations-textinfo {
-            text-align: center;
-            font-size: 2em!important;
-            text-transform: none;
-            font-size: 1vw;
-            font-weight: 200;
-          }
-          .illustrations-text {
-            padding: 3%;
-            padding-bottom: 3%;
-          }
-
-
-        .mobile-flex-container-illustrations{
-          margin-top: 10%;
-          padding: 10% 10%;
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          justify-content: center;
-          position: relative;
-          margin-left: auto;
-          margin-right: auto;
-          max-width: 1080px;
-          width: 83.33333%;
-        }
-        .thumb-image-bikemd-wireframes-info {
-          width: 25%;
-          border: #46756e 4px solid;
-          padding: 6%;
-          flex: 1;
-        }
-
-        /*REEL PAGE*/
-        .video-media {
-        overflow: hidden;
-        padding-bottom: 56.25%;
-        position: relative;
-        height: 0;
-        background-color: #181822;
-        height: 350px;
-        }
-        .wuphero img {
-          margin: 0 auto;
-          padding: 4%;
-        }
-        .wup-hero {
-          height: 30em;
-          background-image: url("http://www.eloisadocton.com/images/2018_WeaveUpPage_background.jpg");
-          background-attachment: fixed;
-          background-repeat: no-repeat;
-          background-size: 100%;
-          background-position-x: 0;
-          background-position-y: 0;
-        }
-        .flex-container-wup{
-          display: none;
-        }
-        .flex-container-wup-mobile {
-          display: block;
-        }
-        .flex-container-wup-mobile img{
-          width: 100%;
-        }
-        .thumb-image-wup-info {
-          background-color: #ffffff;
-          /*padding: 6%;*/
-          /* margin-top: 1vw; */
-          padding: 0%;
-          flex: 1;
-          width: 100%;
-          overflow: hidden;
-        }
-        .thumb-image-wup-info img {
-          width: 100%;
-          /* margin-bottom: 4vw; */
-          opacity: 1;
-          -webkit-transition: .3s ease-in-out;
-          transition: .3s ease-in-out;
-        }
-          .thumb-image-wup-info:hover img {
-          opacity: .5;
-          }
-
+@media screen and (min-width: 1px)
+and (max-device-width: 414px)
+{
+      .logoleftnav {
+        width: 100%;
+        margin-top: 5%;
       }
-      ::selection {
-          background-color: #e5bfdb;
-      }
+     h1 {
+       font-size: 55px;
+       color: #333a44;
+       display: inline;
+       text-align: center;
+     }
+     h1:hover {
+       color: #ffe2e6;
+     }
+     h2 {
+       font-size: 4vw!important;
+     }
+     h2.mobile-title {
+       color: white;
+       font-size: 4vw;
+       margin: 0;
+     }
+     h3 {
+       color: black;
+       font-size: 25px;
+       margin: 0;
+     }
+     h3.mobile-h3:hover {
+       color: white;
+       font-size: 7vw;
+       margin: 0;
+       transition: .5s;
+     }
+     h4 {
+       font-size: 4vw;
+     }
+     h5 {
+       font-size: 4vw;
+       text-align: center;
+     }
+     h6 {
+       color: #00000000!important;
+     }
+     .flex-container-hello {
+       margin-top: 8%;
+     }
+     #container {
+       background: fixed;
+       height: 90vw;
+       width: 100%;
+       background-repeat: no-repeat;
+       background-size: 100%;
+       background-image: url(http://eloisadocton.com/images/DesignIndexsm.jpg);
+       background-position-y: 28vw;
+     }
+
+     .bird video {
+       width: 100%;
+       margin-top: 7%;
+     }
+     .whatIdo {
+       width: 100%;
+     }
+     .whatIdo2 {
+       width: 100%;
+     }
+
+     .dogs-right {
+      display: none;
+    }
+     .illustrator .designer .spacer .drawer{
+       display: none;
+     }
+     ul {
+       width: 100%;
+       padding: 0;
+     }
+     li a {
+       font-size: 3vw;
+       text-align: center;
+       padding: .5em .6em;
+       letter-spacing: .03em;
+     }
+     .mobile-landingpage-flex-container {
+       display: none;
+     }
+     .landingpage-flex-container {
+       display: none;
+     }
+     .flex-container-index {
+       width: 100%;
+       background-color: white;
+       z-index: 1;
+     }
+     .index-image {
+       width: 100%;
+       margin: 0;
+     }
+     .index-image img{
+       width: 100%;
+       margin-top: 20%;
+     }
+     .mobile-index-intro {
+       width: 100% !important;
+       text-align: center;
+       display: block;
+       background-color: #333a44;
+       padding: 4%;
+     }
+     .index-intro {
+       display: none;
+     }
+
+     .mobile-menu {
+       display: block;
+     }
+     .mobile-menu-bikemd {
+       display: block;
+       margin-top: 0;
+     }
+     .mobile-about-illustrations {
+       display: block;
+     }
+     .mobile-about-illustrations img{
+       width: 100%;
+     }
+     .mobile-about {
+       padding: 5%;
+       border-bottom: 2px solid black;
+       border-top: 2px solid black;
+     }
+     .mobile-about img {
+       width: 100%;
+     }
+     .mobile-about:hover {
+     background-color: #333a44;
+     }
+     footer {
+       position: relative;
+     }
+     .left-footer {
+       display: none;
+     }
+     .right-footer {
+       width: 100%;
+       text-align: center;
+       background-color: #e6bfdb;
+       margin: 0;
+     }
+     .fa {
+       font-size: 7.1vw;
+       margin: 3%;
+       color: white;
+     }
+     .fa:hover {
+       color: #ffe2e6;
+     }
+     .hello-button {
+       background-color: #d73149;
+       transition: 1s;
+       color: white;
+       text-align: center;
+       padding: 5%;
+     }
+     .dogs-right-mobile {
+       display: block;
+     }
+     .mobilenav {
+       display: block;
+     }
+     .hello-text {
+       display: none;
+     }
+     .thumb-image-ill img {
+    width: 40vw;
+    opacity: 1;
+  }
+  .illustrations-hero {
+    height: 80vw;
+    overflow: hidden;
+    background-image: url(http://www.eloisadocton.com/images/Illustrations.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: 0;
+    background-position-y: 300px;
+}
+.portfolio-flex-container-top {
+    width: 100%;
+    margin-top: 300px;
+    padding: 0;
+}
+.half-portfolio-flex-container {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    float: left;
+    display: block;
+}
+.wup-hero {
+    height: 42em;
+    overflow: hidden;
+    background-image: url(http://www.eloisadocton.com/images/2018_WeaveUpPage_background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: 0;
+    background-position-y: 0;
+}
+.top-divi {
+  height: 200px;
+}
+
+.bikemd-info {
+    margin-top: 2%;
+    max-width: 90%;
+    text-align: left;
+}
+.desktop-bikemd {
+  display: none;
+}
+.spoonflower-hero {
+    height: 35em;
+    overflow: hidden;
+    background-image: url(http://www.eloisadocton.com/images/natdress1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  h6.illustrations-textinfo {
+    font-size: 2vw;
+    text-align: left;
+    color: #414452!important;
+}
+.desktop {
+  display: none;
+}
+}
