@@ -2102,9 +2102,20 @@ and (max-device-width: 414px)
   padding-top: 30%;
   padding-left: 5%;
 }
-
 .mobileWeaveUpinfo {
   padding: 5%;
+}
+
+.mobileDiviHero {
+  background: fixed;
+  height: 54vw;
+  background-repeat: no-repeat;
+  background-image: url("http://www.eloisadocton.com/images/background_image_divi_04.jpg");
+  background-position-y: 19vw;
+  opacity: .8;
+  background-size: 100%;
+  padding-top: 30%;
+  padding-left: 5%;
 }
   img {
     width: 100%;
