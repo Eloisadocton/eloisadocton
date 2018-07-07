@@ -860,6 +860,10 @@
       width: 15%;
       background-color: #f4d257;
     }
+    .colorstripe2 {
+      width: 15%;
+      background-color: #e6bfdb;
+    }
     .dogs {
       opacity: 0;
       width: 100%;
@@ -892,9 +896,7 @@
       flex-direction: row;
       flex-wrap: wrap;
       position: relative;
-      padding-top: 5%;
       padding-left: 9%;
-      padding-bottom: 5%;
     }
     .whatIdo2 {
       background-color: #fff;
@@ -918,7 +920,6 @@
         left: 0;
         padding-bottom: .25%;
         background-color: white;
-        padding-top: 1%;
         overflow: hidden;
         width: 100%;
         z-index: 9000000000000;
@@ -1925,245 +1926,171 @@
   display: none;
 }
 
+.MediaQueries {
+  display: none;
+}
 
 /*MEDIA QUERIES START HERE*/
 @media screen and (min-width: 1px)
 and (max-device-width: 414px)
 {
-      .logoleftnav {
-        width: 100%;
-        margin-top: 5%;
-      }
-     h1 {
-       font-size: 55px;
-       color: #333a44;
-       display: inline;
-       text-align: center;
-     }
-     h1:hover {
-       color: #ffe2e6;
-     }
-     h2 {
-       font-size: 4vw!important;
-     }
-     h2.mobile-title {
-       color: white;
-       font-size: 4vw;
-       margin: 0;
-     }
-     h3 {
-       color: black;
-       font-size: 25px;
-       margin: 0;
-     }
-     h3.mobile-h3:hover {
-       color: white;
-       font-size: 7vw;
-       margin: 0;
-       transition: .5s;
-     }
-     h4 {
-       font-size: 4vw;
-     }
-     h5 {
-       font-size: 4vw;
-       text-align: center;
-     }
-     h6 {
-       color: #00000000!important;
-     }
-     .flex-container-hello {
-       margin-top: 8%;
-     }
-     #container {
-       background: fixed;
-       height: 90vw;
-       width: 100%;
-       background-repeat: no-repeat;
-       background-size: 100%;
-       background-image: url(http://eloisadocton.com/images/DesignIndexsm.jpg);
-       background-position-y: 28vw;
-     }
+  .MediaQueries {
+    display: contents;
+  }
+  .desktop {
+    display: none;
+  }
+  h1 {
+    font-size: 7vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .35em;
+    font-weight: 200;
+    font-style: normal;
+    margin: 0;
+    padding-top: 0;
+    display: table-cell;
+    width: 30%;
+    vertical-align: middle;
+    line-height: 1em;
+    z-index: 8002;
+    position: relative;
+    color: black;
+    text-align: center;
+  }
+  h1.scrolling {
+    color: white;
+  }
+  h2 {
+    font-size: 6vw;
+    letter-spacing: .2vw;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1%;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-weight: 200;
+    text-align: center;
+  }
+  h3 {
+    font-size: 6vw;
+    color: #d73149;
+    letter-spacing: .2vw;
+    text-decoration: none;
+    font-weight: 200;
+    text-transform: capitalize;
+    padding: 5%;
+    margin-right: 62%;
+    margin-left: 2.5%;
+    border: 5px solid #d73149;
+  }
+  h4 {
+    font-size: 5vw;
+    padding: 5%;
+  }
+  .mobileLogo {
+    position: fixed;
+    z-index: 10000000;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    background-color: #e6bfdb;
+  }
+  .mobileHero {
+    background: fixed;
+    height: 55vw;
+    background-repeat: no-repeat;
+    background-image: url("http://www.eloisadocton.com/images/heroimageindex.jpg");
+    background-position-y: 19vw;
+    background-position-x: 20vw;
+    opacity: .8;
+    background-size: 100%;
+    padding-top: 30%;
+    padding-left: 5%;
+  }
+  .mobileIntro {
+    z-index: 10000000;
+    margin-top: 10%;
+  }
+  .mobileDev {
+    background-color: #fcfcfc;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+  }
 
-     .bird video {
-       width: 100%;
-       margin-top: 7%;
-     }
-     .whatIdo {
-       width: 100%;
-     }
-     .whatIdo2 {
-       width: 100%;
-     }
+  /* Decorative Yellow  */
+  .mobileColorstripelt {
+    background-color: #f4d257;
+    opacity: .4;
+    height: 40px;
+  }
+  .mobileColorstripemd {
+    background-color: #f4d257;
+    opacity: .6;
+    height: 40px;
+  }
+  .mobileColorstripe {
+    background-color: #f4d257;
+    height: 70px;
+  }
 
-     .dogs-right {
+  /* Decorative Peach  */
+  .mobileColorstripePeachlt {
+    background-color: #e19797;
+    opacity: .4;
+    height: 40px;
+  }
+  .mobileColorstripePeachmd {
+    background-color: #e19797;
+    opacity: .6;
+    height: 40px;
+  }
+  .mobileColorstripePeach {
+    background-color: #e19797;
+    height: 70px;
+  }
+
+  .mobileDevinfo {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .mobileDesigninfo {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .mobileNav {
+    margin-bottom: 12%;
+  }
+  .mobileNavbuttons {
+    padding: 5%;
+    background-color: #fff;
+    border-top: 5px solid #d73149;
+  }
+  footer {
+      position: fixed;
+    }
+    .left-footer {
       display: none;
     }
-     .illustrator .designer .spacer .drawer{
-       display: none;
-     }
-     ul {
-       width: 100%;
-       padding: 0;
-     }
-     li a {
-       font-size: 3vw;
-       text-align: center;
-       padding: .5em .6em;
-       letter-spacing: .03em;
-     }
-     .mobile-landingpage-flex-container {
-       display: none;
-     }
-     .landingpage-flex-container {
-       display: none;
-     }
-     .flex-container-index {
-       width: 100%;
-       background-color: white;
-       z-index: 1;
-     }
-     .index-image {
-       width: 100%;
-       margin: 0;
-     }
-     .index-image img{
-       width: 100%;
-       margin-top: 20%;
-     }
-     .mobile-index-intro {
-       width: 100% !important;
-       text-align: center;
-       display: block;
-       background-color: #333a44;
-       padding: 4%;
-     }
-     .index-intro {
-       display: none;
-     }
-
-     .mobile-menu {
-       display: block;
-     }
-     .mobile-menu-bikemd {
-       display: block;
-       margin-top: 0;
-     }
-     .mobile-about-illustrations {
-       display: block;
-     }
-     .mobile-about-illustrations img{
-       width: 100%;
-     }
-     .mobile-about {
-       padding: 5%;
-       border-bottom: 2px solid black;
-       border-top: 2px solid black;
-     }
-     .mobile-about img {
-       width: 100%;
-     }
-     .mobile-about:hover {
-     background-color: #333a44;
-     }
-     footer {
-       position: relative;
-     }
-     .left-footer {
-       display: none;
-     }
-     .right-footer {
-       width: 100%;
-       text-align: center;
-       background-color: #e6bfdb;
-       margin: 0;
-     }
-     .fa {
-       font-size: 7.1vw;
-       margin: 3%;
-       color: white;
-     }
-     .fa:hover {
-       color: #ffe2e6;
-     }
-     .hello-button {
-       background-color: #d73149;
-       transition: 1s;
-       color: white;
-       text-align: center;
-       padding: 5%;
-     }
-     .dogs-right-mobile {
-       display: block;
-     }
-     .mobilenav {
-       display: block;
-     }
-     .hello-text {
-       display: none;
-     }
-     .thumb-image-ill img {
-    width: 40vw;
-    opacity: 1;
-  }
-  .illustrations-hero {
-    height: 80vw;
-    overflow: hidden;
-    background-image: url(http://www.eloisadocton.com/images/Illustrations.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-x: 0;
-    background-position-y: 300px;
-}
-.portfolio-flex-container-top {
-    width: 100%;
-    margin-top: 300px;
-    padding: 0;
-}
-.half-portfolio-flex-container {
-    position: relative;
-    width: 100%;
-    overflow-x: hidden;
-    float: left;
-    display: block;
-}
-.wup-hero {
-    height: 42em;
-    overflow: hidden;
-    background-image: url(http://www.eloisadocton.com/images/2018_WeaveUpPage_background.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-x: 0;
-    background-position-y: 0;
-}
-.top-divi {
-  height: 200px;
-}
-
-.bikemd-info {
-    margin-top: 2%;
-    max-width: 90%;
-    text-align: left;
-}
-.desktop-bikemd {
-  display: none;
-}
-.spoonflower-hero {
-    height: 35em;
-    overflow: hidden;
-    background-image: url(http://www.eloisadocton.com/images/natdress1.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
-  h6.illustrations-textinfo {
-    font-size: 2vw;
-    text-align: left;
-    color: #414452!important;
-}
-.desktop {
-  display: none;
-}
+    .right-footer {
+      width: 100%;
+      text-align: center;
+      background-color: #e6bfdb;
+      margin: 0;
+    }
+    .fa {
+      font-size: 7.1vw;
+      margin: 3%;
+      color: white;
+    }
+    .fa:hover {
+      color: #ffe2e6;
+    }
 }
