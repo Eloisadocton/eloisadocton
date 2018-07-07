@@ -2073,14 +2073,28 @@ and (max-device-width: 414px)
     background-color: #fff;
     border-top: 5px solid #d73149;
   }
-
+  .mobileIllustrationsHero {
+    background: fixed;
+    height: 34vw;
+    background-repeat: no-repeat;
+    background-image: url("http://www.eloisadocton.com/images/Illustrations.jpg");
+    background-position-y: 19vw;
+    opacity: .8;
+    background-size: 100%;
+    padding-top: 30%;
+    padding-left: 5%;
+  }
+  .thumb-image-ill img {
+    width: 40vw;
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
   img {
     width: 100%;
   }
-
   section {
     padding: 5%;
-    
   }
   footer {
       position: fixed;
