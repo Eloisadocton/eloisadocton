@@ -2090,6 +2090,22 @@ and (max-device-width: 414px)
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
+
+.mobileWeaveUpHero {
+  background: fixed;
+  height: 54vw;
+  background-repeat: no-repeat;
+  background-image: url("http://www.eloisadocton.com/images/2018_WeaveUpPage_background.jpg");
+  background-position-y: 19vw;
+  opacity: .8;
+  background-size: 100%;
+  padding-top: 30%;
+  padding-left: 5%;
+}
+
+.mobileWeaveUpinfo {
+  padding: 5%;
+}
   img {
     width: 100%;
   }
