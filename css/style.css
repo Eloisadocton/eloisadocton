@@ -2085,6 +2085,16 @@ and (max-device-width: 414px)
     height: 70px;
   }
 
+  .mobileSpoonflowerHero {
+    background: fixed;
+    height: 45vw;
+    background-repeat: no-repeat;
+    background-image: url("http://www.eloisadocton.com/images/natdress1.jpg");
+    background-position-y: 19vw;
+    background-size: 100%;
+    padding-top: 30%;
+    padding-left: 5%;
+  }
 
   .mobileDevinfo {
     width: 100%;
