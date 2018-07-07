@@ -2073,6 +2073,15 @@ and (max-device-width: 414px)
     background-color: #fff;
     border-top: 5px solid #d73149;
   }
+
+  img {
+    width: 100%;
+  }
+
+  section {
+    padding: 5%;
+    
+  }
   footer {
       position: fixed;
     }
