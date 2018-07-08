@@ -1995,6 +1995,9 @@ and (max-device-width: 414px)
     padding-bottom: 5%;
     background-color: #e6bfdb;
   }
+  .mobileWeb img{
+    width: 90%;
+  }
   .mobileHero {
     background: fixed;
     height: 55vw;
@@ -2097,9 +2100,9 @@ and (max-device-width: 414px)
   }
   .mobileHeroBranchless {
     background: fixed;
-    height: 39vw;
+    height: 41vw;
     background-repeat: no-repeat;
-    background-image: url("http://www.eloisadocton.com/images/branchlesshero.jpg");
+    background-image: url("http://eloisadocton.com/images/EloisaDocton_BranchlessBank.png");
     background-position-y: 19vw;
     background-size: 100%;
     padding-top: 30%;
