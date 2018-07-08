@@ -2010,6 +2010,18 @@ and (max-device-width: 414px)
     padding-top: 30%;
     padding-left: 5%;
   }
+  .mobileAboutHero {
+    background: fixed;
+    height: 90vw;
+    background-repeat: no-repeat;
+    background-image: url("http://www.eloisadocton.com/images/Banner-Mobile.jpg");
+    background-position-y: 19vw;
+    opacity: .8;
+    background-size: 100%;
+    padding-top: 30%;
+    padding-left: 5%;
+  }
+
   .mobileIntro {
     z-index: 10000000;
     margin-top: 10%;
