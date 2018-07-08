@@ -1710,7 +1710,6 @@
       h4.bikemdtitle {
         text-align: center;
       }
-
       .bikemd-info {
           margin-top: 2%;
           /*margin-left: 4%;
@@ -1718,6 +1717,15 @@
           max-width: 60%;
           text-align: left;
         }
+      .thumb-image-bikemd-info {
+          background-color: #ffffff;
+          /* padding: 6%; */
+          /* margin-top: 8vw; */
+          padding: 3%;
+          flex: 1;
+          width: 20%;
+          overflow: hidden;
+      }
 /*GOOD READS PAGE*/
       .projects-more img{
         width: 40%;
