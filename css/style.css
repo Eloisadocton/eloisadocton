@@ -864,6 +864,10 @@
       width: 15%;
       background-color: #e6bfdb;
     }
+    .colorstripe3 {
+      width: 15%;
+      background-color: #b1dce2;
+    }
     .dogs {
       opacity: 0;
       width: 100%;
@@ -961,6 +965,18 @@
       .fa:hover {
       color: #ffe2e6;
       transition: .6s;
+      }
+      .index3 {
+        background-color: #fcfcfc;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+        /* padding: 2%; */
       }
 
 /*ABOUT ME PAGE*/
