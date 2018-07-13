@@ -2174,6 +2174,10 @@ and (max-device-width: 414px)
   .mobileWeb img{
     width: 90%;
   }
+
+  .mobileWeb {
+    width: 100%;
+  }
   .mobileHero {
     background: fixed;
     height: 55vw;
@@ -2214,6 +2218,21 @@ and (max-device-width: 414px)
     position: relative;
   }
 
+  /* Decorative Gray  */
+  .mobileColorstripeGraylt {
+    background-color: #323b43;
+    opacity: .4;
+    height: 40px;
+  }
+  .mobileColorstripeGraymd {
+    background-color: #323b43;
+    opacity: .6;
+    height: 40px;
+  }
+  .mobileColorstripeGray {
+    background-color: #323b43;
+    height: 70px;
+  }
 
   /* Decorative Yellow  */
   .mobileColorstripelt {
