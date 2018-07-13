@@ -855,8 +855,12 @@
       width: 50%;
     }
     .birdBranchless img {
-      width: 50%;
+      width: 100%;
       height: auto;
+    }
+
+    .branchlessStory {
+      width: 50%;
     }
     .bird.scrolling {
       opacity: 100;
