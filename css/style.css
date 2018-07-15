@@ -1,4 +1,6 @@
-
+a {
+  cursor: pointer!important;
+}
 #container
 {
   background: fixed;
@@ -838,6 +840,119 @@
       background-color: #ffffff;
       transition: .5s;
     }
+
+    .indexSpoonflower {
+      background-color: #fcfcfc;
+      margin-top: -1%;
+      width: 100%;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      position: relative;
+        }
+
+    .indexSpoonflower2 {
+      background-image: url("../images/2018_SpoonflowerBackground2-02.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      position: relative;
+        }
+
+    .indexSpoonflower3 {
+      background-image: url("../images/2018_EloisaDocton_SpoonflowerVideosBackground-02.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      position: relative;
+        }
+
+        .indexSpoonflower4 {
+          background-image: url("../images/2018_EloisaDocton_Spoonflower_Background4-02.png");
+          background-size: 100%;
+          background-repeat: no-repeat;
+          height: auto;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          position: relative;
+            }
+
+        .SpoonflowerContentCollage img {
+          width: 100%;
+          opacity: .5;
+          -webkit-transition: .3s ease-in-out;
+          transition: .3s ease-in-out;
+          cursor: pointer!important;
+        }
+
+        .SpoonflowerContentCollage img:hover {
+        opacity: 1;
+        cursor: pointer!important;
+        }
+        .birdSpoonflower3 {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          position: relative;
+          padding-bottom: 5%;
+          padding-left: 10%;
+        }
+
+        .birdSpoonflower4 {
+          float: right;
+          display: inline-block;
+          width: 100%;
+        }
+        .birdSpoonflower video {
+          width: 50%;
+        }
+        .birdSpoonflower.scrolling {
+          opacity: 9;
+          transition: 1s;
+        }
+
+        .SpoonflowerWinnerLeft {
+          padding: 10% 5% 0% 15%;
+          width: 40%;
+        }
+
+        .SpoonflowerWinnerLeft img{
+          width: 100%;
+        }
+
+        .SpoonflowerWinnerRight {
+          padding: 15% 5% 0% 0%;
+          width: 30%;
+        }
+
+        .SpoonflowerWinnerRight video {
+          width: 100%;
+          margin-bottom: 30%;
+        }
+
+        .SpoonflowerContentLeft {
+          padding: 10% 5% 10% 15%;
+          width: 30%;
+        }
+
+        .SpoonflowerContentText {
+          margin: 15% 15% 5% 15%;
+        }
+
+    .SpoonflowerContentLeft img {
+      width: 100%;
+    }
     .bird {
       opacity: 0;
       width: 85%;
@@ -858,9 +973,40 @@
       width: 100%;
       height: auto;
     }
-
+    .birdSpoonflower {
+      opacity: 0;
+      background-color: #fcfcfc;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      position: relative;
+      padding-bottom: 5%;
+      padding-left: 10%;
+    }
+    .birdSpoonflower video {
+      width: 50%;
+    }
+    .birdSpoonflower.scrolling {
+      opacity: 9;
+      transition: 1s;
+    }
+    .winnerSpoonflower {
+      opacity: 0;
+    }
+    .winnerSpoonflower.scrolling {
+      opacity: 9;
+      transition: 1s;
+   }
     .branchlessStory {
       width: 50%;
+    }
+
+    .winnerSpoonflower img {
+      width: 100%;
     }
     .bird.scrolling {
       opacity: 100;
@@ -974,6 +1120,18 @@
       width: 45%;
       margin-top: 5%;
     }
+    .dogs-rightSpoonflower {
+      width: 45%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    .dogs-rightSpoonflower img {
+      width: 100%;
+    }
+
+    a .spoonflowerPage {
+      color: red;
+    }
     .dogsBranchless {
       opacity: 0;
       width: 100%;
@@ -1014,7 +1172,24 @@
       width: 100%;
       height: 100%;
     }
-
+    .dogsSpoonflower {
+      opacity: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #ffffff;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      position: relative;
+    }
+    .dogsSpoonflower.scrolling {
+      opacity: 9;
+      transition: 1s;
+    }
     .dogsBranchless img {
       width: 100%;
       height: 100%;
@@ -1031,7 +1206,9 @@
       position: relative;
     }
 
-
+    .birdSpoonflowerContent img{
+      width: 40%;
+    }
 
     .index2 {
       background-color: #fff;
@@ -2029,14 +2206,17 @@
         padding: 4%;
       }
       .spoonflower-hero {
-        height: 35em;
+        height: 100%;
         overflow: hidden;
-        background-image: url("http://www.eloisadocton.com/images/natdress1.jpg");
+        /* background-image: url("http://www.eloisadocton.com/images/natdress1.jpg");
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-x: 0;
+        background-position-x: 0; */
         /*background-position-y: -300px;*/
+      }
+      .spoonflower-hero img {
+        width: 100%;
       }
       .spoonflower-text {
         padding-top: 2%;
