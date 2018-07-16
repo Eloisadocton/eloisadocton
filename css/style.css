@@ -1,6 +1,3 @@
-a {
-  cursor: pointer!important;
-}
 #container
 {
   background: fixed;
@@ -8,7 +5,7 @@ a {
   width: 100%;
   background-repeat: no-repeat;
   background-size: 35vw;
-  background-image: url(http://eloisadocton.com/images/DesignIndexsm.jpg);
+  background-image: url("http://eloisadocton.com/images/DesignIndexsm.jpg");
   background-position-x: 47vw;
   background-position-y: 13vw;
 }
@@ -170,12 +167,7 @@ a {
       h3.scrolling {
             color: white;
         }
-      /*h3.scrolling2 {
-        color: black;
-      }
-      h3.scrolling3 {
-        color: white;
-      }*/
+
       h3.illustrations-designer.scrolling {
         color: #ebe800;
         -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
@@ -667,15 +659,11 @@ a {
       }
       .hello-image-desktop img {
         width: 100%;
-        /*margin-left: 5%;*/
       }
       .hello-intro {
         margin-left: 80%;
       }
       .index-image {
-        /* width: 50%;
-        margin: 2px;
-        margin-left: -7%; */
         display: none;
       }
       .index-image img {
