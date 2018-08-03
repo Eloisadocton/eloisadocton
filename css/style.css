@@ -100,6 +100,9 @@
       h1.title1-video {
         color:#172d3a;
       }
+      h1.title1-DiviPage {
+        color: white;
+      }
       h1.wup-textinfo {
         color: white;
       }
@@ -194,6 +197,23 @@
             -o-animation: fadein 6s; /* Opera < 12.1 */
             animation: fadein 6s;
             margin-left: 0;
+            }
+
+            h3.designerDivi {
+              color: white;
+            }
+
+            h3.spacerDivi {
+              color: white;
+            }
+            h3.drawerDivi {
+              color: white;
+            }
+            h3.spacer2Divi {
+              color: white;
+            }
+            h3.developerDivi {
+              color: white;
             }
       h4 {
         font-size: 1vw;
@@ -1758,6 +1778,44 @@
         -webkit-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
       }
+      nav.divinav {
+        background: rgba(255, 255, 255, 0.3);
+      }
+      nav.divinav a{
+        color: white;
+        font-weight: bold;
+
+      }
+      .divinav.scrolling {
+        opacity: 0;
+      }
+      .parallax {
+          /* The image used */
+          background-image: url('http://www.eloisadocton.com/images/2018_Background_Divi.jpg');
+          opacity: .9;
+          /* Full height */
+          height: 1000px;
+
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+      .parallax1 {
+          /* The image used */
+          background-image: url('http://www.eloisadocton.com/images/2018_Divi_Background.jpg');
+
+          /* Full height */
+          height: 100px;
+
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+
 
       .divihero img {
         display: block;
