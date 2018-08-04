@@ -1128,6 +1128,39 @@
       width: 45%;
       margin-top: 5%;
     }
+
+    .divi1 {
+      opacity: 0;
+      width: 100%;
+      background-color: #ffffff;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      position: relative;
+      padding-bottom: 5%;
+    }
+    .divi1.scrolling {
+      opacity: 100;
+      transition: 1s;
+    }
+
+    .divi1 img {
+      height: auto;
+      width: 90%;
+    }
+    .divi1-right {
+      width: 40%;
+      margin-top: 5%;
+      margin-left: 5%;
+    }
+
+    .divi1-right video {
+      width: 100%;
+    }
     .dogs-rightSpoonflower {
       width: 45%;
       margin-top: 5%;
@@ -1245,6 +1278,12 @@
       width: 40%;
       padding: 2%;
       padding-top: 10%;
+    }
+
+    .whatIdoDivi {
+      background-color: #fff;
+      width: 50%;
+      padding-top: 5%;
     }
 
 
