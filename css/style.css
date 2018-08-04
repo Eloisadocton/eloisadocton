@@ -1842,10 +1842,10 @@
       }
       .parallax1 {
           /* The image used */
-          background-image: url('http://www.eloisadocton.com/images/2018_Divi_Background.jpg');
+          background-image: url('http://www.eloisadocton.com/images/2018_DiviPage_Background1.jpg');
 
           /* Full height */
-          height: 100px;
+          height: 90%;
 
           /* Create the parallax scrolling effect */
           background-attachment: fixed;
