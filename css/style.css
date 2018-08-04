@@ -1832,7 +1832,7 @@
           /* The image used */
           background-image: url('http://www.eloisadocton.com/images/2018_Background_DiviA.jpg');
           /* Full height */
-          height: 90%;
+          height: 70%;
 
           /* Create the parallax scrolling effect */
           background-attachment: fixed;
@@ -1853,15 +1853,47 @@
           background-repeat: no-repeat;
           background-size: cover;
       }
+
+      .parallax2 {
+          /* The image used */
+          background-image: url('http://www.eloisadocton.com/images/2018_EloisaDocton_DiviPage_Leaves.jpg');
+
+          /* Full height */
+          height: 90%;
+
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+
       .diviparallax {
         padding-top: 15%;
         padding-right: 10%;
-        padding-bottom: 30%;
+        padding-bottom: 25%;
       }
       .diviParallaxText {
         background-color: #ffffff;
         padding: 5%;
       }
+
+      .videoButton {
+        margin-left: 35%;
+      }
+
+      .video-button {
+        border: 1px solid #33cccc;
+        padding: 2% 4%;
+        color: #33cccc;
+      }
+      .video-button:hover {
+        background: linear-gradient(to left, #33cccc 0%, #ffffff 100%);
+        transition: 1s;
+        color: white;
+      }
+
+
       h6.divi {
         font-size: 5vw;
         text-align: right;
