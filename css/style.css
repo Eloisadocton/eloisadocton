@@ -1868,6 +1868,20 @@
           background-size: cover;
       }
 
+      .parallax3 {
+          /* The image used */
+          background-image: url('http://www.eloisadocton.com/images/2018_EloisaDocton_DiviPage_Website.jpg');
+
+          /* Full height */
+          height: 90%;
+
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+
       .diviparallax {
         padding-top: 15%;
         padding-right: 10%;
@@ -1888,9 +1902,21 @@
         color: #33cccc;
       }
       .video-button:hover {
-        background: linear-gradient(to left, #33cccc 0%, #ffffff 100%);
+        background: linear-gradient(to left, #009933 0%, #66ffff 100%);
         transition: 1s;
         color: white;
+      }
+      .diviLinks {
+      background: linear-gradient(to left, #006600 0%, #00ffcc 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      }
+
+      .diviLinks:hover {
+        background: linear-gradient(to left, #ff9966 0%, #ffcccc 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: 2s;
       }
 
 
@@ -1954,13 +1980,13 @@
          margin-left: auto;
          margin-right: auto;
          /*max-width: 1080px;*/
-         width: 83.33333%;
+         width: 95%;
        }
 
        .thumb-image-diviresorts-info {
          background-color: #ffffff;
          /*padding: 6%;*/
-         margin-top: 8vw;
+         /* margin-top: 8vw; */
          padding: 3%;
          flex: 1;
          width: 20%;
