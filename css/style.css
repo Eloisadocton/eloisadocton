@@ -1882,6 +1882,21 @@
           background-size: cover;
       }
 
+      .parallax4 {
+          /* The image used */
+          background-image: url('http://www.eloisadocton.com/images/2018_EloisaDocton_Website_IllustrationsDivi.jpg');
+
+          /* Full height */
+          height: 90%;
+
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+
+
       .diviparallax {
         padding-top: 15%;
         padding-right: 10%;
