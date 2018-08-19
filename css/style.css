@@ -1974,7 +1974,7 @@
       .divinav.scrolling {
         opacity: 0;
       }
-      .parallax {
+      #introparallax {
           /* background-image: url('http://www.eloisadocton.com/images/2018_Background_DiviA.jpg');
           height: 70%;
           background-attachment: fixed;
@@ -1989,14 +1989,15 @@
         padding: 0;
         width: 100%;
       }
-      .parallax1 {
-          /* The image used */
-          background-image: url('http://www.eloisadocton.com/images/2018_DiviPage_Background1.jpg');
 
-          /* Full height */
+      #secondparallax{
+		    background-color: white;
+        padding: 5%;
+        }
+
+      .diviparallax {
+          background-image: url('http://www.eloisadocton.com/images/2018_Background_DiviA.jpg');
           height: 90%;
-
-          /* Create the parallax scrolling effect */
           background-attachment: fixed;
           background-position: center;
           background-repeat: no-repeat;
@@ -2004,13 +2005,8 @@
       }
 
       .parallax2 {
-          /* The image used */
-          background-image: url('http://www.eloisadocton.com/images/2018_EloisaDocton_DiviPage_Leaves.jpg');
-
-          /* Full height */
-          height: 90%;
-
-          /* Create the parallax scrolling effect */
+          background-image: url('http://www.eloisadocton.com/images/2018_DiviPage_Background1.jpg');
+          height: 50vw;
           background-attachment: fixed;
           background-position: center;
           background-repeat: no-repeat;
@@ -2018,13 +2014,8 @@
       }
 
       .parallax3 {
-          /* The image used */
           background-image: url('http://www.eloisadocton.com/images/2018_EloisaDocton_DiviPage_Website.jpg');
-
-          /* Full height */
-          height: 90%;
-
-          /* Create the parallax scrolling effect */
+          height: 50vw;
           background-attachment: fixed;
           background-position: center;
           background-repeat: no-repeat;
@@ -2032,13 +2023,8 @@
       }
 
       .parallax4 {
-          /* The image used */
           background-image: url('http://www.eloisadocton.com/images/2018_EloisaDocton_Website_IllustrationsDivi1.jpg');
-
-          /* Full height */
-          height: 90%;
-
-          /* Create the parallax scrolling effect */
+          height: 50vw;
           background-attachment: fixed;
           background-position: center;
           background-repeat: no-repeat;
