@@ -671,7 +671,6 @@
         flex-wrap: wrap;
         position: relative;
         margin-top: 8%;
-        overflow: scroll;
         background-color: white;
         z-index: 90000000;
       }
